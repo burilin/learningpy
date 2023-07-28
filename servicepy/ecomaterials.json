@@ -1,0 +1,482 @@
+{
+    "main": [
+        {
+            "figi": "BBG000FLHZZ2",
+            "ticker": "WCN",
+            "classCode": "SPBXM",
+            "isin": "CA94106B1013",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Waste Connections",
+            "exchange": "SPB",
+            "issueSize": "263682959",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "cad",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "e99298f3-08d6-4b9b-bc13-7a816db35000",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "0eeddd61-cf45-4fc7-959a-caec2ea44d62",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2022-08-08T13:29:00Z",
+            "first1dayCandleDate": "2022-08-08T07:00:00Z"
+        },
+        {
+            "figi": "BBG000BPXVJ6",
+            "ticker": "RSG",
+            "classCode": "SPBXM",
+            "isin": "US7607591002",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Republic Services",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1998-06-30T00:00:00Z",
+            "issueSize": "318364854",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "750000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "6707f9fd-cac2-4219-8a9c-4407349d3d4f",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "b0286458-7c55-4c4b-9ef3-3bcd767b042f",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "1998-07-01T00:00:00Z"
+        },
+        {
+            "figi": "US7607591002",
+            "ticker": "US7607591002",
+            "classCode": "SPBXM_OTC",
+            "isin": "US7607591002",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Republic Services",
+            "exchange": "Issuance",
+            "ipoDate": "1998-06-30T00:00:00Z",
+            "issueSize": "318364854",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "750000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "d752999f-4019-41e8-84b6-c1a59bfa7225",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "37c9c050-70f6-422e-8a7a-43095459e7f1",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "US2362721001",
+            "ticker": "US2362721001",
+            "classCode": "SPBXM_OTC",
+            "isin": "US2362721001",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Danimer Scientific",
+            "exchange": "Issuance",
+            "issueSize": "20000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "100000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "f66a4376-9433-490f-a988-81087b3a74cb",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "8c887d89-61a4-49aa-84b5-f1d9090b0208",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        },
+        {
+            "figi": "BBG00S4VMQT2",
+            "ticker": "DNMR",
+            "classCode": "SPBXM",
+            "isin": "US2362721001",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Danimer Scientific",
+            "exchange": "SPB",
+            "issueSize": "20000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "100000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "e6cc7a00-7623-4cad-aa39-f510b6b30fd6",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "c854ba61-99b4-4308-a59e-024428e41964",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2021-10-26T11:30:00Z",
+            "first1dayCandleDate": "2021-10-26T07:00:00Z"
+        },
+        {
+            "figi": "BBG000BWVSR1",
+            "ticker": "WM",
+            "classCode": "SPBXM",
+            "isin": "US94106L1098",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Waste Management",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1988-06-15T00:00:00Z",
+            "issueSize": "421098975",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "1500000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "293b5a52-8c46-4d42-aed3-bb7fb500db86",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "abdd13a4-8520-47a9-8a8c-07fe67e08d8f",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "1988-09-30T00:00:00Z"
+        },
+        {
+            "figi": "US94106L1098",
+            "ticker": "US94106L1098",
+            "classCode": "SPBXM_OTC",
+            "isin": "US94106L1098",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Waste Management",
+            "exchange": "Issuance",
+            "ipoDate": "1988-06-15T00:00:00Z",
+            "issueSize": "421098975",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "1500000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "36eef2d2-6d8d-4435-86c5-889c829fae91",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "b1856bac-d859-4f4c-bb37-4b932923669e",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG005K98LG4",
+            "ticker": "BHTG",
+            "classCode": "BHTG",
+            "isin": "US09074B1070",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "BioHiTech Global",
+            "exchange": "nasdaq",
+            "issueSize": "17437288",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "50000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "28c99665-2ac3-44a6-8780-e42f156ff629",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "b33fb020-51aa-459e-9fc8-e9d3ab402962",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        },
+        {
+            "figi": "BBG0077HPN74",
+            "ticker": "ZY",
+            "classCode": "SPBXM",
+            "isin": "US98985X1000",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Zymergen Inc.",
+            "exchange": "SPB",
+            "issueSize": "100324768",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "ecomaterials",
+            "issueSizePlan": "286477669",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "ed8d4526-6234-4ad7-b40a-62dc04418e2a",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "b6e6a048-8ef2-4d2f-a76e-fb8fd027eb8f",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2021-07-09T13:30:00Z",
+            "first1dayCandleDate": "2021-07-09T07:00:00Z"
+        },
+        {
+            "figi": "BBG000Q5T9W3",
+            "ticker": "DQ",
+            "classCode": "DQ",
+            "isin": "US23703Q2030",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Daqo New Energy Corp",
+            "exchange": "dealer_int_exchange",
+            "issueSize": "73513580",
+            "countryOfRisk": "CN",
+            "countryOfRiskName": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "sector": "ecomaterials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "5",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "4b8e981a-c5b9-45e6-b443-8fbcade389e2",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "c083fe98-1752-4b7a-94ee-16586d503fc9",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false
+        }
+    ]
+}
