@@ -1,8 +1,22 @@
 import datetime
+import json
+
+
+
 
 
 def main():
-   print('!run.py!')
+    with open('../data/data_stocks.json') as f:
+        templates = json.load(f)
+
+    print(templates['instruments'][0])
+
+
+    print('!run.py!')
+
+
+
+
 
 
 if __name__ == '__main__':
