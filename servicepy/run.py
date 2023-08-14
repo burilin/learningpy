@@ -1,4 +1,5 @@
 import datetime
+import time
 import json
 
 
@@ -34,6 +35,7 @@ def selsect_stocks():
     # в переменной companies храним название компаний
     companies = []
     stroka = fullinfo()
+    start = time.time()
     stocks = writer()
     
     for i in range(len(stocks['instruments'])):
@@ -43,11 +45,13 @@ def selsect_stocks():
 
     for i in range(len(stocks['instruments'])):
         if stroka in f"{stocks['instruments'][i]['name']}":
-            res.append(f"{stocks['instruments'][i]}")        
+            res.append(f"{stocks['instruments'][i]}")
+    end = time.time() - start
+    print(end)
     return res 
 
 # открытие json файла
-def writer():
+def writer() -> json:
    
     with open("../data/data_stocks.json","r",encoding="utf-8") as file:
        stocks = json.load(file)
@@ -55,6 +59,8 @@ def writer():
 
 # вывод 
 def output():
+
+
     out = selsect_stocks()
     if out:
         for i in out:
@@ -94,6 +100,6 @@ def creating_json():
 
 
 if __name__ == '__main__':
-    #output()
-    creating_json()
+    output()
+    #creating_json()
 
