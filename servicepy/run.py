@@ -1,9 +1,7 @@
 import time
-import json,os
+import json
+import os
 import collections
-
-
-
 ### Tasks ###
 # Cоздать столько файлов в количестве отраслей. каждая отрасль в отдельный файл json+
 # Cделать commit опубликовать свои изменения на  GitHub+-
@@ -22,16 +20,23 @@ import collections
 # Эффективные алгоритмы поиска, обходов списков и словарей. Генераторы.
 
 
-def main() -> None:
-    print('старт')
+PATH_TO_FILE = "../data/data_stocks.json"
+def universal_timer(rng, function, *args) -> str:
     time_start = time.time()
-    creating_json()
+    for i in rng:
+        function(*args)
     time_end = time.time()
-    print("конец, время выполнения = ", time_end - time_start)
-       
+    return "Runtime = " + str(time_end - time_start)
 
 
+def main() -> None:
+    #the_oldest_company()
+    range_test = range(100)
+    print(universal_timer(range_test, the_oldest_company))
+    #creating_json()
 # ввод имени компании
+
+
 def fullinfo() -> str:
     stroka = input("введи название интересующей компании ")
     return stroka 
@@ -54,14 +59,15 @@ def selsect_stocks() -> list:
             res.append(f"{stocks['instruments'][i]}")
     end = time.time() - start
     print(end)
-    return res 
+    return res
 
 # открытие json файла
 
-def writer() -> dict:
-    with open("../data/data_stocks.json","r",encoding="utf-8") as file:
-       stocks = json.load(file)
-    return stocks 
+
+def writer(path_file="../data/data_stocks.json") -> dict:
+    with open(path_file, "r", encoding="utf-8") as file:
+        stocks = json.load(file)
+    return stocks
 
 # вывод 
 
@@ -140,7 +146,7 @@ def companies_2010():
 
 
 def the_oldest_company():
-    stocks = writer()
+    stocks = writer(path_file=PATH_TO_FILE)
 
     dates_list = []
     the_company = []
@@ -164,10 +170,11 @@ if __name__ == '__main__':
 
     #output()
     #creating_json()
-    #main()
+    main()
     #choose_data()
     #country_popularity_rating()
     #companies_2010()
-    the_oldest_company()
-    
+
+
+
 
