@@ -1,6 +1,8 @@
 import time
-import json,os
+import json
+import os
 import collections
+
 
 ### Tasks ###
 # Cоздать столько файлов в количестве отраслей. каждая отрасль в отдельный файл json+
@@ -10,7 +12,7 @@ import collections
 # Полностью ориентироваться в структуре данного json Делать поиски и выборки условно любых запросов.+-
 # Например, найти самую старую компанию по размещению акций. Выбрать все акции размещенные на бирже в 2010 году+
 # Рассчитать популярные страны по юрисдикции торгуемых акций. В какой стране выпущены акции наиболее популярные после РФ+
-# Консольное пользовательское меню реализовать с модуляцией диалога (выберите задачу из меню, продолжить/завершить)-
+# Консольное пользовательское меню реализовать с модуляцией диалога (выберите задачу из меню, продолжить/завершить)+
 
 ### Notes ###
 # Структура файлов проекта (мусор в папках)
@@ -19,25 +21,37 @@ import collections
 # Связь логики программы с архитектурой (составом функций и модулей)
 # Эффективные алгоритмы поиска, обходов списков и словарей. Генераторы.
 
-def main() -> None:
+#---------------------------------------------------------------------------------------------------------------------------
+#основной код
+PATH_FILE = "../data/data_stocks.json"
+DATE = 2010
+
+
+#главная функция для тестирования времени выполнения иной функции
+def time_measuring(func, *args) -> str:
     print('старт')
     time_start = time.time()
-    creating_json()
+    func(*args)
     time_end = time.time()
-    print("конец, время выполнения = ", time_end - time_start)
+    return f" время выполнения =  {time_end - time_start} "
        
 
+
+
+
+# вспомогательная функция для ввода имени компании (вызывается в другой функции)
 # ввод имени компании
 def fullinfo() -> str:
     stroka = input("введи название интересующей компании ")
     return stroka 
+
 
 # поиск компаний по заданной строке
 def selsect_stocks() -> list:
     # в переменной companies храним название компаний
     companies = []
     stroka = fullinfo()
-    stocks = writer()
+    stocks = writer(PATH_FILE)
     
     for i in range(len(stocks['instruments'])):
        companies.append( f"{stocks['instruments'][i]['name']}")
@@ -45,30 +59,27 @@ def selsect_stocks() -> list:
     res = []
 
     for i in range(len(stocks['instruments'])):
-        if stroka in f"{stocks['instruments'][i]['name']}":
+        if stroka.lower() in f"{stocks['instruments'][i]['name']}":
             res.append(f"{stocks['instruments'][i]}")        
     return res 
 
+
+
+
+# вспомогательная функция для открытия главного (начального) json 
 # открытие json файла
-def writer() -> dict:
+def writer(file_path:str) -> dict:
    
-    with open("../data/data_stocks.json","r",encoding="utf-8") as file:
+    with open(file_path,"r",encoding="utf-8") as file:
        stocks = json.load(file)
     return stocks 
 
-# вывод 
-def output() -> None:
-    out = selsect_stocks()
-    if out:
-        for i in out:
-            print(f"{i}\n\n")
-    else:
-        print("такой компании нет")
 
    
 #---------------------------------------------------
-def creating_json() -> None:
-    stocks = writer()
+# функция для создания папки с файлом по определенному слову
+def creating_json() -> str:
+    stocks = writer(PATH_FILE)
     search_par = choose_data()
     par = set()
     
@@ -87,13 +98,14 @@ def creating_json() -> None:
             with open(f'../data/{str(search_par)}/'+str(i)+'.json','w',encoding='utf-8') as file:
                 main_data ={'main': data}
                 json.dump(main_data, file, indent= 4)
+        return "success"
     except Exception:
-        print("невозможно отсортировать по данному ключу")
+        return "it's impossible to sort by this tag"
     
     
-# возвращает строку, являющейся параметром для сортировки json
+# возвращает строку, являющейся параметром для сортировки json в функции creating_json
 def choose_data() -> str:
-    stocks = writer()
+    stocks = writer(PATH_FILE)
     datas = []
 
     for i in range(len(stocks['instruments'])):
@@ -109,56 +121,78 @@ def choose_data() -> str:
 
 
 # рейтинг стран по популярности (акции)
-def country_popularity_rating() -> None:
-    stocks = writer()
+def country_popularity_rating() -> collections:
+    stocks = writer(PATH_FILE)
     country_list = [stocks['instruments'][i]['countryOfRiskName'] for i in range(len(stocks['instruments']))]
     result = collections.Counter(country_list)
-    print(result)
+    return result
 
 
-
-def companies_2010():
-    stocks = writer()
+# функция для того, чтобы найти акции, появившиеся на бирже в 2010 году 
+def companies_by_date(date:int) -> list:
+    stocks = writer(PATH_FILE)
 
     companies_list = []
 
 
     for i in range(len(stocks['instruments'])):
         keys = stocks['instruments'][i].keys()
-        if 'first1dayCandleDate' in keys and '2010' in stocks['instruments'][i]['first1dayCandleDate']:
+        if 'first1dayCandleDate' in keys and str(date) in stocks['instruments'][i]['first1dayCandleDate']:
             companies_list.append(stocks['instruments'][i])
-    print(companies_list)
+    return companies_list
 
-
-def the_oldest_company():
-    stocks = writer()
+# поиск самой старой компании по размещению акций на бирже
+def the_oldest_company() -> str:
+    stocks = writer(PATH_FILE)
 
     dates_list = []
-    the_company = []
+    the_company = ''
 
     for i in range(len(stocks['instruments'])):
         keys = stocks['instruments'][i].keys()
         if 'first1dayCandleDate' in keys:
             dates_list.append(stocks['instruments'][i]['first1dayCandleDate'][:4])
     first_date = min(list(map(int,dates_list)))
-    print(first_date)
+    
 
     for i in range(len(stocks['instruments'])):
         keys = stocks['instruments'][i].keys()
         if 'first1dayCandleDate' in keys:
             if str(first_date) in stocks['instruments'][i]['first1dayCandleDate'][:4]:
-                the_company.append(stocks['instruments'][i])
-    print(the_company)
+                the_company=stocks['instruments'][i]
+    return the_company
 
+
+
+def main() -> None:
+    con = True
+    while con:
+        num = int(input("""Выберите из предложенного списка доступные возможности(напишите выбранный пукнт, т е цифру): 
+            1) поиск компаний по заданной строке
+            2) создание папки с файлом по определенному слову
+            3) рейтинг стран по популярности (акции)
+            4) акции, появившиеся на бирже в опредедлённом году 
+            5) поиск самой старой компании по размещению акций на бирже
+            """))
+        
+        if num == 1:
+            print(selsect_stocks())
+        elif num == 2:
+            print(creating_json())
+        elif num == 3:
+            print(country_popularity_rating())
+        elif num == 4:
+           print(companies_by_date(DATE)) 
+        elif num == 5:
+            print(the_oldest_company())
+        else:
+            print("такого функционала нет")
+
+        con = int(input("продолжаем? (введи 1 если да, 0 - если нет) "))
 
 
 
 if __name__ == '__main__':
-    #output()
-    #creating_json()
-    #main()
-    #choose_data()
-    #country_popularity_rating()
-    #companies_2010()
-    the_oldest_company()
+    main()
+    
     
