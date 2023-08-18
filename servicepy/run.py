@@ -2,8 +2,6 @@ import time
 import json
 import os
 import collections
-
-
 ### Tasks ###
 # Cоздать столько файлов в количестве отраслей. каждая отрасль в отдельный файл json+
 # Cделать commit опубликовать свои изменения на  GitHub+-
@@ -20,6 +18,7 @@ import collections
 # Общий синтаксис функций в питоне (параметры и типизация возвращаемых значений)
 # Связь логики программы с архитектурой (составом функций и модулей)
 # Эффективные алгоритмы поиска, обходов списков и словарей. Генераторы.
+
 
 #---------------------------------------------------------------------------------------------------------------------------
 #основной код
@@ -41,6 +40,8 @@ def time_measuring(func, *args) -> str:
 
 # вспомогательная функция для ввода имени компании (вызывается в другой функции)
 # ввод имени компании
+
+
 def fullinfo() -> str:
     stroka = input("введи название интересующей компании ")
     return stroka 
@@ -51,7 +52,9 @@ def selsect_stocks() -> list:
     # в переменной companies храним название компаний
     companies = []
     stroka = fullinfo()
+
     stocks = writer(PATH_FILE)
+
     
     for i in range(len(stocks['instruments'])):
        companies.append( f"{stocks['instruments'][i]['name']}")
@@ -59,6 +62,7 @@ def selsect_stocks() -> list:
     res = []
 
     for i in range(len(stocks['instruments'])):
+
         if stroka.lower() in f"{stocks['instruments'][i]['name']}":
             res.append(f"{stocks['instruments'][i]}")        
     return res 
@@ -66,13 +70,16 @@ def selsect_stocks() -> list:
 
 
 
+
 # вспомогательная функция для открытия главного (начального) json 
 # открытие json файла
+
 def writer(file_path:str) -> dict:
    
     with open(file_path,"r",encoding="utf-8") as file:
        stocks = json.load(file)
     return stocks 
+
 
 
    
@@ -141,9 +148,11 @@ def companies_by_date(date:int) -> list:
             companies_list.append(stocks['instruments'][i])
     return companies_list
 
+
 # поиск самой старой компании по размещению акций на бирже
 def the_oldest_company() -> str:
     stocks = writer(PATH_FILE)
+
 
     dates_list = []
     the_company = ''
@@ -161,6 +170,7 @@ def the_oldest_company() -> str:
             if str(first_date) in stocks['instruments'][i]['first1dayCandleDate'][:4]:
                 the_company=stocks['instruments'][i]
     return the_company
+
 
 
 
@@ -196,3 +206,4 @@ if __name__ == '__main__':
     main()
     
     
+
