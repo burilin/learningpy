@@ -2,8 +2,6 @@ import time
 import json
 import os
 import collections
-
-
 ### Tasks ###
 # Cоздать столько файлов в количестве отраслей. каждая отрасль в отдельный файл json+
 # Cделать commit опубликовать свои изменения на  GitHub+-
@@ -20,6 +18,7 @@ import collections
 # Общий синтаксис функций в питоне (параметры и типизация возвращаемых значений)
 # Связь логики программы с архитектурой (составом функций и модулей)
 # Эффективные алгоритмы поиска, обходов списков и словарей. Генераторы.
+
 
 #---------------------------------------------------------------------------------------------------------------------------
 #основной код
@@ -41,6 +40,8 @@ def time_measuring(func, *args) -> str:
 
 # вспомогательная функция для ввода имени компании (вызывается в другой функции)
 # ввод имени компании
+
+
 def fullinfo() -> str:
     stroka = input("введи название интересующей компании ")
     return stroka 
@@ -51,7 +52,9 @@ def selsect_stocks() -> list:
     # в переменной companies храним название компаний
     companies = []
     stroka = fullinfo()
+
     stocks = writer(PATH_FILE)
+
     
     for i in range(len(stocks['instruments'])):
        companies.append( f"{stocks['instruments'][i]['name']}")
@@ -59,6 +62,7 @@ def selsect_stocks() -> list:
     res = []
 
     for i in range(len(stocks['instruments'])):
+
         if stroka.lower() in f"{stocks['instruments'][i]['name']}":
             res.append(f"{stocks['instruments'][i]}")        
     return res 
@@ -66,6 +70,7 @@ def selsect_stocks() -> list:
 
 
 
+<<<<<<< HEAD
 def get_names(list_dict:list,key_name:str) -> list:
     keys = [list_dict['instruments'][i][key_name] for i in range(len(list_dict['instruments']))]
     return keys
@@ -120,14 +125,18 @@ def select_stocks2(list_dict:list, keyy:str, search_value:str) -> list:
 
 
 
+=======
+>>>>>>> dev
 
 # вспомогательная функция для открытия главного (начального) json 
 # открытие json файла
+
 def writer(file_path:str) -> dict:
    
     with open(file_path,"r",encoding="utf-8") as file:
        stocks = json.load(file)
     return stocks 
+
 
 
    
@@ -196,9 +205,11 @@ def companies_by_date(date:int) -> list:
             companies_list.append(stocks['instruments'][i])
     return companies_list
 
+
 # поиск самой старой компании по размещению акций на бирже
 def the_oldest_company() -> str:
     stocks = writer(PATH_FILE)
+
 
     dates_list = []
     the_company = ''
@@ -219,6 +230,7 @@ def the_oldest_company() -> str:
 
 
 
+<<<<<<< HEAD
 def main(*args) -> None:
     
     tasks = {
@@ -233,6 +245,32 @@ def main(*args) -> None:
     task = int(input(f"выбери функцию {tasks} "))
 
     return tasks[task](*args)
+=======
+
+def main() -> None:
+    con = True
+    while con:
+        num = int(input("""Выберите из предложенного списка доступные возможности(напишите выбранный пукнт, т е цифру): 
+            1) поиск компаний по заданной строке
+            2) создание папки с файлом по определенному слову
+            3) рейтинг стран по популярности (акции)
+            4) акции, появившиеся на бирже в опредедлённом году 
+            5) поиск самой старой компании по размещению акций на бирже
+            """))
+        
+        if num == 1:
+            print(selsect_stocks())
+        elif num == 2:
+            print(creating_json())
+        elif num == 3:
+            print(country_popularity_rating())
+        elif num == 4:
+           print(companies_by_date(DATE)) 
+        elif num == 5:
+            print(the_oldest_company())
+        else:
+            print("такого функционала нет")
+>>>>>>> dev
 
 
 
@@ -243,3 +281,4 @@ if __name__ == '__main__':
     
     print(select_stocks2(writer(PATH_FILE),NAME_KEY,SEARCH_VALUE))
     
+
