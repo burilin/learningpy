@@ -25,8 +25,8 @@ import collections
 #основной код
 PATH_FILE = "../data/data_stocks.json"
 DATE = 2010
-
-
+NAME_KEY = "name"
+SEARCH_VALUE = "Газпром"
 #главная функция для тестирования времени выполнения иной функции
 def time_measuring(func, *args) -> str:
     print('старт')
@@ -62,6 +62,61 @@ def selsect_stocks() -> list:
         if stroka.lower() in f"{stocks['instruments'][i]['name']}":
             res.append(f"{stocks['instruments'][i]}")        
     return res 
+
+
+
+
+def get_names(list_dict:list,key_name:str) -> list:
+    keys = [list_dict['instruments'][i][key_name] for i in range(len(list_dict['instruments']))]
+    return keys
+
+
+def sort_list_dict(keys:list) -> list:
+    
+    if len(keys) <=1:
+        return keys
+    base_elem = keys[0]
+
+    left = list(filter(lambda x: x < base_elem,keys))
+    center = [i for i in keys if i == base_elem]
+    right = list(filter(lambda x: x > base_elem,keys))
+    return sort_list_dict(left) + center + sort_list_dict(right)
+
+
+def bin_search(sort_keys:list,search_value:str) -> int:
+    left,right = 0, len(sort_keys) - 1
+
+    while left<=right:
+        mid = (left+right)//2
+
+        if sort_keys[mid] == search_value:
+            return mid 
+        if sort_keys[mid] > search_value:
+            right = mid - 1
+        else:
+            left = mid + 1
+    return "полного совпадения не найдено"
+
+
+
+def select_stocks2(list_dict:list, keyy:str, search_value:str) -> list:
+    list_dict = sorted(list_dict['instruments'], key = lambda x: x[keyy])
+
+
+
+    left,right = 0, len(list_dict) - 1
+
+    while left<=right:
+        mid = (left+right)//2
+
+        if list_dict[mid][keyy] == search_value:
+            return list_dict[mid]
+        if list_dict[mid][keyy] > search_value:
+            right = mid - 1
+        if list_dict[mid][keyy] < search_value:
+            left = mid + 1
+        
+
 
 
 
@@ -164,35 +219,27 @@ def the_oldest_company() -> str:
 
 
 
-def main() -> None:
-    con = True
-    while con:
-        num = int(input("""Выберите из предложенного списка доступные возможности(напишите выбранный пукнт, т е цифру): 
-            1) поиск компаний по заданной строке
-            2) создание папки с файлом по определенному слову
-            3) рейтинг стран по популярности (акции)
-            4) акции, появившиеся на бирже в опредедлённом году 
-            5) поиск самой старой компании по размещению акций на бирже
-            """))
-        
-        if num == 1:
-            print(selsect_stocks())
-        elif num == 2:
-            print(creating_json())
-        elif num == 3:
-            print(country_popularity_rating())
-        elif num == 4:
-           print(companies_by_date(DATE)) 
-        elif num == 5:
-            print(the_oldest_company())
-        else:
-            print("такого функционала нет")
+def main(*args) -> None:
+    
+    tasks = {
+        1:selsect_stocks,
+        2:creating_json,
+        3:country_popularity_rating,
+        4:companies_by_date,
+        5:the_oldest_company
+    }
 
-        con = int(input("продолжаем? (введи 1 если да, 0 - если нет) "))
+
+    task = int(input(f"выбери функцию {tasks} "))
+
+    return tasks[task](*args)
+
 
 
 
 if __name__ == '__main__':
-    main()
+    #print(main())
+    #print(bin_search(sort_list_dict(get_names(writer(PATH_FILE),NAME_KEY)),SEARCH_VALUE))
     
+    print(select_stocks2(writer(PATH_FILE),NAME_KEY,SEARCH_VALUE))
     
