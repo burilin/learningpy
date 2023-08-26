@@ -24,8 +24,8 @@ import collections
 #основной код
 PATH_FILE = "../data/data_stocks.json"
 DATE = 2010
-NAME_KEY = "name"
-SEARCH_VALUE = "Газпром"
+NAME_KEY = "ticker"
+SEARCH_VALUE = "SBERP"
 #главная функция для тестирования времени выполнения иной функции
 def time_measuring(func, *args) -> str:
     print('старт')
@@ -48,13 +48,9 @@ def fullinfo() -> str:
 
 
 # поиск компаний по заданной строке
-def selsect_stocks() -> list:
+def select_stocks(stocks:dict,stroka:str ) -> list:
     # в переменной companies храним название компаний
     companies = []
-    stroka = fullinfo()
-
-    stocks = writer(PATH_FILE)
-
     
     for i in range(len(stocks['instruments'])):
        companies.append( f"{stocks['instruments'][i]['name']}")
@@ -70,41 +66,21 @@ def selsect_stocks() -> list:
 
 
 
-def get_names(list_dict:list,key_name:str) -> list:
-    keys = [list_dict['instruments'][i][key_name] for i in range(len(list_dict['instruments']))]
-    return keys
-
-
-def sort_list_dict(keys:list) -> list:
+def sort_list_dict(list_dict:list, key_name_sort) -> list:
     
-    if len(keys) <=1:
-        return keys
-    base_elem = keys[0]
+    if len(list_dict) <=1:
+        return list_dict
+    base_elem = list_dict[0]
 
-    left = list(filter(lambda x: x < base_elem,keys))
-    center = [i for i in keys if i == base_elem]
-    right = list(filter(lambda x: x > base_elem,keys))
-    return sort_list_dict(left) + center + sort_list_dict(right)
-
-
-def bin_search(sort_keys:list,search_value:str) -> int:
-    left,right = 0, len(sort_keys) - 1
-
-    while left<=right:
-        mid = (left+right)//2
-
-        if sort_keys[mid] == search_value:
-            return mid 
-        if sort_keys[mid] > search_value:
-            right = mid - 1
-        else:
-            left = mid + 1
-    return "полного совпадения не найдено"
+    left = [elem for elem in list_dict[0:] if elem[key_name_sort] < base_elem[key_name_sort]]
+    center = [i for i in list_dict if i[key_name_sort] == base_elem[key_name_sort]]
+    right = [elem for elem in list_dict[0:] if elem[key_name_sort] > base_elem[key_name_sort]]
+    return sort_list_dict(left,key_name_sort) + center + sort_list_dict(right,key_name_sort)
 
 
 
-def select_stocks2(list_dict:list, keyy:str, search_value:str) -> list:
-    list_dict = sorted(list_dict['instruments'], key = lambda x: x[keyy])
+def select_stocks2(list_dict:list, search_key:str, search_value:str) -> list:
+    list_dict = sort_list_dict(list_dict,search_key)
 
 
 
@@ -113,11 +89,11 @@ def select_stocks2(list_dict:list, keyy:str, search_value:str) -> list:
     while left<=right:
         mid = (left+right)//2
 
-        if list_dict[mid][keyy] == search_value:
+        if list_dict[mid][search_key] == search_value:
             return list_dict[mid]
-        if list_dict[mid][keyy] > search_value:
+        if list_dict[mid][search_key] > search_value:
             right = mid - 1
-        if list_dict[mid][keyy] < search_value:
+        if list_dict[mid][search_key] < search_value:
             left = mid + 1
         
 
@@ -136,12 +112,11 @@ def writer(file_path:str) -> dict:
 
 
 
-   
+
 #---------------------------------------------------
 # функция для создания папки с файлом по определенному слову
-def creating_json() -> str:
-    stocks = writer(PATH_FILE)
-    search_par = choose_data()
+def creating_json(stocks:dict, search_par:str) -> str:
+
     par = set()
     
     try:
@@ -165,14 +140,13 @@ def creating_json() -> str:
     
     
 # возвращает строку, являющейся параметром для сортировки json в функции creating_json
-def choose_data() -> str:
-    stocks = writer(PATH_FILE)
+def choose_data(stocks:dict) -> str:
+    
     datas = []
 
     for i in range(len(stocks['instruments'])):
         datas.extend(tuple(stocks['instruments'][i].keys()))
     datas = set(datas)
-    #print (set(datas))
     choose = input(f"Выбери параметр, по которому мы сможем создать и отсортировать json файлы: {datas}")
     if choose in datas:
         return choose
@@ -182,17 +156,14 @@ def choose_data() -> str:
 
 
 # рейтинг стран по популярности (акции)
-def country_popularity_rating() -> collections:
-    stocks = writer(PATH_FILE)
+def country_popularity_rating(stocks:dict) -> collections:
     country_list = [stocks['instruments'][i]['countryOfRiskName'] for i in range(len(stocks['instruments']))]
     result = collections.Counter(country_list)
     return result
 
 
 # функция для того, чтобы найти акции, появившиеся на бирже в 2010 году 
-def companies_by_date(date:int) -> list:
-    stocks = writer(PATH_FILE)
-
+def companies_by_date(date:int, stocks:dict) -> list:
     companies_list = []
 
 
@@ -204,10 +175,7 @@ def companies_by_date(date:int) -> list:
 
 
 # поиск самой старой компании по размещению акций на бирже
-def the_oldest_company() -> str:
-    stocks = writer(PATH_FILE)
-
-
+def the_oldest_company(stocks:dict) -> str:
     dates_list = []
     the_company = ''
 
@@ -230,11 +198,12 @@ def the_oldest_company() -> str:
 def main(*args) -> None:
     
     tasks = {
-        1:selsect_stocks,
-        2:creating_json,
-        3:country_popularity_rating,
-        4:companies_by_date,
-        5:the_oldest_company
+        1: select_stocks,
+        2: creating_json,
+        3: country_popularity_rating,
+        4: companies_by_date,
+        5: the_oldest_company,
+        6: select_stocks2
     }
 
 
@@ -246,9 +215,6 @@ def main(*args) -> None:
 
 
 if __name__ == '__main__':
-    #print(main())
-    #print(bin_search(sort_list_dict(get_names(writer(PATH_FILE),NAME_KEY)),SEARCH_VALUE))
-    
-    print(select_stocks2(writer(PATH_FILE),NAME_KEY,SEARCH_VALUE))
+    print(main(writer(PATH_FILE)['instruments'],NAME_KEY,SEARCH_VALUE))
     
 
