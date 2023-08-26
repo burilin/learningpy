@@ -70,7 +70,6 @@ def selsect_stocks() -> list:
 
 
 
-<<<<<<< HEAD
 def get_names(list_dict:list,key_name:str) -> list:
     keys = [list_dict['instruments'][i][key_name] for i in range(len(list_dict['instruments']))]
     return keys
@@ -125,8 +124,6 @@ def select_stocks2(list_dict:list, keyy:str, search_value:str) -> list:
 
 
 
-=======
->>>>>>> dev
 
 # вспомогательная функция для открытия главного (начального) json 
 # открытие json файла
@@ -230,7 +227,6 @@ def the_oldest_company() -> str:
 
 
 
-<<<<<<< HEAD
 def main(*args) -> None:
     
     tasks = {
@@ -245,32 +241,6 @@ def main(*args) -> None:
     task = int(input(f"выбери функцию {tasks} "))
 
     return tasks[task](*args)
-=======
-
-def main() -> None:
-    con = True
-    while con:
-        num = int(input("""Выберите из предложенного списка доступные возможности(напишите выбранный пукнт, т е цифру): 
-            1) поиск компаний по заданной строке
-            2) создание папки с файлом по определенному слову
-            3) рейтинг стран по популярности (акции)
-            4) акции, появившиеся на бирже в опредедлённом году 
-            5) поиск самой старой компании по размещению акций на бирже
-            """))
-        
-        if num == 1:
-            print(selsect_stocks())
-        elif num == 2:
-            print(creating_json())
-        elif num == 3:
-            print(country_popularity_rating())
-        elif num == 4:
-           print(companies_by_date(DATE)) 
-        elif num == 5:
-            print(the_oldest_company())
-        else:
-            print("такого функционала нет")
->>>>>>> dev
 
 
 
