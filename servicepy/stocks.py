@@ -1,20 +1,23 @@
-import time
 import json
 import os
 import collections
-
+#убрать меня из класса, вызов из run.py+
+#убрать большие буквы из параметров +
+#добавить собственное поле через writer+
+#доработать набор параметров инициализации+-
+#убрать get_str+
 class Stocks:
 
-    def __init__(self, FILE_PATH = "../data/data_stocks.json" , DATE = 2010, SEARCH_KEY = "ticker", SEARCH_VALUE = "SBERP") -> None:
-        self.file_path = FILE_PATH
-        self.date = DATE
-        self.search_key = SEARCH_KEY
-        self.search_value = SEARCH_VALUE
-
+    def __init__(self, file_path = "../data/data_stocks.json" , search_key = "ticker", search_value = "SBERP"):
+        self.file_path = file_path
+        self.search_key = search_key
+        self.search_value = search_value
+        self.stocks_list_dict = self.writer()
+        self.len_stocks = len(self.stocks_list_dict)
 
     def __repr__(self) -> str:
-        return 'stocks'
-
+        return str("self.stocks_list_dict")
+    
 
     def writer(self) -> list:   # opening file
 
@@ -22,42 +25,17 @@ class Stocks:
             stocks = json.load(file)
         return stocks['instruments'] 
     
-
-
-    def main(self,*args) -> str:   # func main to choose other funcs
-    
-        tasks = {
-            1: self.select_stocks,
-            2: self.creating_json,
-            3: self.country_popularity_rating,
-            4: self.companies_by_date,
-            5: self.the_oldest_company,
-            6: self.select_stocks2
-        }
-
-
-        task = int(input(f"выбери функцию {tasks} "))
-
-        return tasks[task](*args)
-    
-
-
-    def get_str(self) -> str:   # return a string, which is a name of the company
-        stroka = input("введи название интересующей компании ")
-        return stroka 
-
-
     
     def select_stocks(self, stocks:list, stroka:str ) -> list: # slow select stocks by string(name)
         
         companies = []
         
-        for i in range(len(stocks)):
+        for i in range(self.len_stocks):
             companies.append( f"{stocks[i]['name']}")
 
         res = []
 
-        for i in range(len(stocks)):
+        for i in range(self.len_stocks):
 
             if stroka.lower() in f"{stocks[i]['name']}":
                 res.append(f"{stocks[i]}")        
@@ -101,13 +79,13 @@ class Stocks:
         par = set()
         
         try:
-            for i in range(len(stocks)):
+            for i in range(self.len_stocks):
                 par.add(stocks[i][search_par])
             os.makedirs(f'../data/{str(search_par)}')
             for i in par:
             
                 data =[]
-                for j in range(len(stocks)):
+                for j in range(self.len_stocks):
                     if i == stocks[j][search_par]:
                         data.append(stocks[j])
                     
@@ -121,7 +99,7 @@ class Stocks:
         
         
     def country_popularity_rating(self, stocks:list) -> collections:  # rate stocks by popularity
-        country_list = [stocks[i]['countryOfRiskName'] for i in range(len(stocks))]
+        country_list = [stocks[i]['countryOfRiskName'] for i in range(self.len_stocks)]
         result = collections.Counter(country_list)
         return result
     
@@ -130,7 +108,7 @@ class Stocks:
         companies_list = []
 
 
-        for i in range(len(stocks)):
+        for i in range(self.len_stocks):
             keys = stocks[i].keys()
             if 'first1dayCandleDate' in keys and str(year) in stocks[i]['first1dayCandleDate']:
                 companies_list.append(stocks[i])
@@ -142,29 +120,17 @@ class Stocks:
         dates_list = []
         the_company = ''
 
-        for i in range(len(stocks)):
+        for i in range(self.len_stocks):
             keys = stocks[i].keys()
             if 'first1dayCandleDate' in keys:
                 dates_list.append(stocks[i]['first1dayCandleDate'][:4])
         first_date = min(list(map(int,dates_list)))
         
 
-        for i in range(len(stocks)):
+        for i in range(self.len_stocks):
             keys = stocks[i].keys()
             if 'first1dayCandleDate' in keys:
                 if str(first_date) in stocks[i]['first1dayCandleDate'][:4]:
                     the_company=stocks[i]
         return the_company
-    
-    def time_measuring(func, *args) -> str: #measuring funcs' time
-        print('старт')
-        time_start = time.time()
-        func(*args)
-        time_end = time.time()
-        return f" время выполнения =  {time_end - time_start} "
 
-    
-
-stock = Stocks()
-
-print(stock.main())
