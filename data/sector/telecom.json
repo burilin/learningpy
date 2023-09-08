@@ -1,5 +1,5 @@
 {
-    "main": [
+    "instruments": [
         {
             "figi": "TCS0030N1019",
             "ticker": "CMCSA-RM",
