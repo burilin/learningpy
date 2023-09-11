@@ -75,8 +75,12 @@ class Instruments:
                 left = mid + 1
         return "not found"
     
+    def writer(self, search_par:str, name_key:str, data:list):
+        with open(f'../data/{str(search_par)}/'+str(name_key)+'.json','w',encoding='utf-8') as file:
+            main_data ={'instruments': data}
+            json.dump(main_data, file, indent= 4)
     
-    def writer(self, search_par:str) -> str:    #creating json using searching par
+    def json_creater(self, search_par:str) -> str:    #creating json using searching par
 
         params = set()
         
@@ -91,13 +95,10 @@ class Instruments:
                     if i == self.stocks[j][search_par]:
                         data.append(self.stocks[j])
                     
-                
-                with open(f'../data/{str(search_par)}/'+str(i)+'.json','w',encoding='utf-8') as file:
-                    main_data ={'instruments': data}
-                    json.dump(main_data, file, indent= 4)
+                self.writer(search_par=search_par,name_key=i,data=data)
             return "success"
-        except Exception:
-            return "it's impossible to write and sort by this tag"
+        except Exception as ex:
+            return f"it's impossible to write and sort by this tag\n Exceprion : {ex}"
         
         
     def country_popularity_rating(self) -> collections:  # rate stocks by popularity
