@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG001BP77C3",
+            "ticker": "QADA",
+            "classCode": "SPBXM",
+            "isin": "US74727D3061",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "QAD Inc",
+            "exchange": "SPB",
+            "issueSize": "16172193",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "71000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "81be6c11-e344-4bec-b7c4-4ffd472f6299",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "981f4808-9b40-41b0-9b3a-1bcd24ab58a7",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-02-28T14:30:00Z",
+            "first1dayCandleDate": "2010-12-16T00:00:00Z"
+        }
+    ]
+}

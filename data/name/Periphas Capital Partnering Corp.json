@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00YGNC450",
+            "ticker": "PCPC",
+            "classCode": "PCPC",
+            "isin": "US7138951006",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Periphas Capital Partnering Corp",
+            "exchange": "Issuance",
+            "issueSize": "0",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "7986846a-30d7-44d9-9c32-e3f41da0c884",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "4421ece6-229f-44d3-ad82-08a935e05624",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

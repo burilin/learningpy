@@ -1,0 +1,47 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG0063FKTD9",
+            "ticker": "LENT",
+            "classCode": "TQBR",
+            "isin": "RU000A102S15",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "\u041b\u0435\u043d\u0442\u0430",
+            "exchange": "MOEX",
+            "ipoDate": "2021-02-08T00:00:00Z",
+            "issueSize": "115985197",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "consumer",
+            "issueSizePlan": "97585932",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 91263200
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 500000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "5f1e6b0a-4413-489c-b336-40b43730eaf5",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "93a5cf8f-361a-4d2b-b38d-88a63aa7972c",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2021-12-14T13:43:00Z",
+            "first1dayCandleDate": "2021-12-14T07:00:00Z"
+        }
+    ]
+}

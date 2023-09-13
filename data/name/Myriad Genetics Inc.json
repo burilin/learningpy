@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "US62855J1043",
+            "ticker": "US62855J1043",
+            "classCode": "SPBXM_OTC",
+            "isin": "US62855J1043",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Myriad Genetics Inc",
+            "exchange": "Issuance",
+            "ipoDate": "1995-10-05T00:00:00Z",
+            "issueSize": "73373443",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "150000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "0f575cf1-5bc3-48e9-b2f7-49e9886fbe51",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "881fd990-1504-4ef4-aac0-15ad29007c1f",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000D9H9F1",
+            "ticker": "MYGN",
+            "classCode": "SPBXM",
+            "isin": "US62855J1043",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Myriad Genetics Inc",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1995-10-05T00:00:00Z",
+            "issueSize": "73373443",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "150000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "990503c7-b824-46ed-b173-abde34337aef",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "8344a2c4-3de9-4c02-bdcc-e2ea8a42c03b",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-04-04T13:30:00Z",
+            "first1dayCandleDate": "1995-10-06T00:00:00Z"
+        }
+    ]
+}

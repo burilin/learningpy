@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00JSKYMY0",
+            "ticker": "BSMX",
+            "classCode": "BSMX",
+            "isin": "US05969B1035",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "\u0410\u0414\u0420 Banco Santander (Mexico) S.A.",
+            "exchange": "nyse",
+            "issueSize": "664537042",
+            "countryOfRisk": "MX",
+            "countryOfRiskName": "\u041c\u0435\u043a\u0441\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0435 \u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "5",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "32ef9e7e-ccdc-4d72-bd77-f8e4ca3b1cc3",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e96d81c2-7bff-4b84-bb23-920251148ca5",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

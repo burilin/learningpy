@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000CZ8W54",
+            "ticker": "HALO",
+            "classCode": "SPBXM",
+            "isin": "US40637H1095",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Halozyme Therapeutics Inc",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "2005-05-06T00:00:00Z",
+            "issueSize": "146539590",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "300000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "ce3ecd83-1bc6-4821-94ff-c42eeb6aa1d3",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "cf7a94fc-37a1-4657-9230-a8f3303492e6",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-10-31T13:29:00Z",
+            "first1dayCandleDate": "2019-10-31T07:00:00Z"
+        },
+        {
+            "figi": "US40637H1095",
+            "ticker": "US40637H1095",
+            "classCode": "SPBXM_OTC",
+            "isin": "US40637H1095",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Halozyme Therapeutics Inc",
+            "exchange": "Issuance",
+            "ipoDate": "2005-05-06T00:00:00Z",
+            "issueSize": "146539590",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "300000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "5e040f5a-c0bb-4b19-b9b5-4a92b34baabc",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "bef382a8-1346-470b-bc6a-59f00990eaa2",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000C2JTB5",
+            "ticker": "IMGN",
+            "classCode": "IMGN",
+            "isin": "US45253H1014",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "ImmunoGen Inc",
+            "exchange": "nasdaq",
+            "issueSize": "149409825",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "2e78e37b-2eb4-439f-b862-3e44a6d6eea8",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "9b01343d-9a80-4b28-a4e9-4136996e5278",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

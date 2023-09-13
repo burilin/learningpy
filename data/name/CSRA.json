@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG008S3V4G5",
+            "ticker": "CSRA",
+            "classCode": "SPBXM",
+            "isin": "US12650T1043",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "CSRA",
+            "exchange": "SPB",
+            "issueSize": "163926064",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "70be19a4-eac5-4a1a-ae2c-20d3e3c2b52f",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "73595902-0482-4189-ae6f-0a77d4d2525a",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:32:00Z",
+            "first1dayCandleDate": "2018-01-23T07:00:00Z"
+        }
+    ]
+}

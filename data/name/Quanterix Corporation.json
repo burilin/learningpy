@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG0027NWC69",
+            "ticker": "QTRX",
+            "classCode": "QTRX",
+            "isin": "US74766Q1013",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Quanterix Corporation",
+            "exchange": "nasdaq",
+            "issueSize": "28440339",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "120000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "e31e3f99-0ae4-4d41-a742-91a9866803d8",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "1c204143-4234-4231-b80e-49fccc0b892e",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

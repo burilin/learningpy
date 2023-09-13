@@ -1,0 +1,110 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG001WMKHH5",
+            "ticker": "NET",
+            "classCode": "SPBXM",
+            "isin": "US18915M1071",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "CloudFlare Inc",
+            "exchange": "SPB_MORNING",
+            "issueSize": "273882797",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "2250000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "f6e866d9-6388-4a55-80f9-27a4fc69392e",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "9be85990-9858-440d-918b-d207cd978eb2",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-07-29T11:32:00Z",
+            "first1dayCandleDate": "2020-07-29T07:00:00Z"
+        },
+        {
+            "figi": "US18915M1071",
+            "ticker": "US18915M1071",
+            "classCode": "SPBXM_OTC",
+            "isin": "US18915M1071",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "CloudFlare Inc",
+            "exchange": "Issuance",
+            "issueSize": "273882797",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "2250000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "b5f7117a-a42a-4171-862d-3585075117cc",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "ad2636d4-02ba-4940-b0e9-aec254243069",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

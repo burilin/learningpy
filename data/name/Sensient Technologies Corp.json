@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "US81725T1007",
+            "ticker": "US81725T1007",
+            "classCode": "SPBXM_OTC",
+            "isin": "US81725T1007",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Sensient Technologies Corp",
+            "exchange": "Issuance",
+            "ipoDate": "1970-12-01T00:00:00Z",
+            "issueSize": "42336473",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "9bb656b7-fc20-4059-aa87-63e3f8299e7b",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "8107425f-2c3f-471c-9f86-47914efa6698",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000J79P80",
+            "ticker": "SXT",
+            "classCode": "SPBXM",
+            "isin": "US81725T1007",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Sensient Technologies Corp",
+            "exchange": "SPB",
+            "ipoDate": "1970-12-01T00:00:00Z",
+            "issueSize": "42336473",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "beaca09b-acb4-47cb-baf8-4d6c89d302e0",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "8f9acc05-5509-4319-a6df-95bb48afd6ff",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-02-28T14:42:00Z",
+            "first1dayCandleDate": "1989-06-28T00:00:00Z"
+        }
+    ]
+}

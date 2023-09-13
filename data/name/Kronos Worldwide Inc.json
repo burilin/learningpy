@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000C3WK36",
+            "ticker": "KRO",
+            "classCode": "KRO",
+            "isin": "US50105F1057",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Kronos Worldwide Inc",
+            "exchange": "nyse",
+            "issueSize": "115902098",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "materials",
+            "issueSizePlan": "240000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "91a431fe-2930-4ca1-89a8-764d6a8bcd89",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "ea022298-4707-4148-a53b-8a73c7e48f51",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

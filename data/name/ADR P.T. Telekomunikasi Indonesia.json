@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000FS2KR5",
+            "ticker": "TLK",
+            "classCode": "TLK",
+            "isin": "US7156841063",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "ADR P.T. Telekomunikasi Indonesia",
+            "exchange": "nyse",
+            "issueSize": "990622166",
+            "countryOfRisk": "",
+            "countryOfRiskName": "",
+            "sector": "telecom",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "100",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "5cfdd0ce-eec9-4be4-abee-d2a6e28c0ddf",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "569fb07a-f08d-479f-b20c-7182fae94990",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG001J2MJH8",
+            "ticker": "RVNC",
+            "classCode": "SPBXM",
+            "isin": "US7613301099",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Revance Therapeutics",
+            "exchange": "SPB",
+            "issueSize": "30934688",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "95000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "1c32eb53-ea05-478a-bda9-229efdb44665",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "d394280d-a131-4260-a095-c8ce8511e725",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2023-04-12T12:29:00Z",
+            "first1dayCandleDate": "2023-04-12T07:00:00Z"
+        },
+        {
+            "figi": "BBG005SDSMH2",
+            "ticker": "RVNC_US",
+            "classCode": "RVNC_US",
+            "isin": "US7613301099",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Revance Therapeutics",
+            "exchange": "nasdaq",
+            "issueSize": "30934688",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "95000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "f80d37f9-da55-4089-b7ec-398f5136fc3e",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "779ce6a6-e4aa-4685-98dc-beb1b8c8d557",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

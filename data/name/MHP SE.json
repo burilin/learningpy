@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000VHWW56",
+            "ticker": "MHPC",
+            "classCode": "lse",
+            "isin": "US55302T2042",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "MHP SE",
+            "exchange": "lse",
+            "issueSize": "105670000",
+            "countryOfRisk": "UA",
+            "countryOfRiskName": "",
+            "sector": "consumer",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "184657f1-9baa-4c2d-9686-bc37e2729e59",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "79779fdb-5436-42ec-a89b-85d7e53a7689",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

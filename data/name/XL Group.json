@@ -1,0 +1,44 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00DBBG1M0",
+            "ticker": "XL_old",
+            "classCode": "SPBXM",
+            "isin": "BMG982941046",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "XL Group",
+            "exchange": "SPB",
+            "issueSize": "258794272",
+            "countryOfRisk": "BM",
+            "countryOfRiskName": "",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "d1a66048-6591-4c2e-9879-a74205f65c40",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "ab94e41e-25cc-431e-b7cc-4fa899eb3e28",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false
+        }
+    ]
+}

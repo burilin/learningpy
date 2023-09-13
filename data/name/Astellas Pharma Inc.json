@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000NVQS78",
+            "ticker": "ALPMY",
+            "classCode": "ALPMY",
+            "isin": "US04623U1025",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Astellas Pharma Inc",
+            "exchange": "otcus",
+            "issueSize": "1861787075",
+            "countryOfRisk": "JP",
+            "countryOfRiskName": "",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "ee73e33d-93ef-43ac-984d-6937e008cdc2",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "5e390200-e0fb-408b-95a7-ee25533010d5",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

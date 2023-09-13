@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG006473QX9",
+            "ticker": "APLE",
+            "classCode": "SPBXM",
+            "isin": "US03784Y2000",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Apple Hospitality REIT",
+            "exchange": "SPB_MORNING",
+            "issueSize": "230339578",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "real_estate",
+            "issueSizePlan": "800000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "a16bcbde-db7c-4c96-bd26-760d6bce9f53",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "e473cb93-c635-4c3e-809c-721ef31da5be",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-01-23T13:21:00Z",
+            "first1dayCandleDate": "2020-01-23T07:00:00Z"
+        },
+        {
+            "figi": "US03784Y2000",
+            "ticker": "US03784Y2000",
+            "classCode": "SPBXM_OTC",
+            "isin": "US03784Y2000",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Apple Hospitality REIT",
+            "exchange": "Issuance",
+            "issueSize": "230339578",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "real_estate",
+            "issueSizePlan": "800000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "37c9a6ae-3055-4478-a373-dd176c038efd",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "d569afa6-1195-4962-9b34-734dbfa1ce1d",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

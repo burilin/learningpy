@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00GBNZ4M0",
+            "ticker": "AM",
+            "classCode": "SPBXM",
+            "isin": "US03676B1026",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Antero Midstream Corp",
+            "exchange": "SPB",
+            "issueSize": "506641575",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "2000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "4a771b8e-821f-4544-9eeb-6ae9b838d317",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "836e3b99-bfeb-486f-8817-1d5c2071771f",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2022-07-18T12:21:00Z",
+            "first1dayCandleDate": "2022-07-18T07:00:00Z"
+        },
+        {
+            "figi": "US03676B1026",
+            "ticker": "US03676B1026",
+            "classCode": "SPBXM_OTC",
+            "isin": "US03676B1026",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Antero Midstream Corp",
+            "exchange": "Issuance",
+            "issueSize": "506641575",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "2000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "40038827-588c-4cf4-93df-e233a1a7d029",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "7f9aff0e-c05b-4680-97d9-5df13a27f831",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        }
+    ]
+}

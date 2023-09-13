@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00YHXZWV1",
+            "ticker": "CFIV",
+            "classCode": "CFIV",
+            "isin": "US12520T1025",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "CF Acquisition Corp IV",
+            "exchange": "Issuance",
+            "issueSize": "0",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "166a8ab6-1d89-4fa8-b9f4-6ce1960400cf",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "eb4521ab-7992-481e-84c3-a5fdc641d21d",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

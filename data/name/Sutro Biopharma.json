@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000R4V3P3",
+            "ticker": "STRO",
+            "classCode": "STRO",
+            "isin": "US8693671021",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Sutro Biopharma",
+            "exchange": "nasdaq",
+            "issueSize": "0",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "956da6bb-a9aa-4128-b2ee-23e79d4b0ff7",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "f9f1baea-5605-4217-9433-d744c599db85",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000LFJVD9",
+            "ticker": "1066",
+            "classCode": "SPBHKEX",
+            "isin": "CNE100000171",
+            "lot": 100,
+            "currency": "hkd",
+            "shortEnabledFlag": false,
+            "name": "Shandong Weigao Group Medical Polymer",
+            "exchange": "SPB_HK",
+            "issueSize": "0",
+            "countryOfRisk": "CN",
+            "countryOfRiskName": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "cny",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 20000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "9075043a-9de1-421a-8225-381a485d0ea2",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "aa283d86-3d96-4808-89e4-3550cafd2b5d",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2023-02-08T05:00:00Z",
+            "first1dayCandleDate": "2023-02-08T07:00:00Z"
+        }
+    ]
+}

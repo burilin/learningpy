@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG018GZNCH6",
+            "ticker": "HLN",
+            "classCode": "HLN",
+            "isin": "US4055521003",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Haleon",
+            "exchange": "nyse",
+            "issueSize": "0",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "2",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "1afe1bc9-69d1-40fc-9a6b-6ece679be554",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "2df9f0b7-6a15-4f03-9972-0be6b175f199",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

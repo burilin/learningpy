@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "US0311001004",
+            "ticker": "US0311001004",
+            "classCode": "SPBXM_OTC",
+            "isin": "US0311001004",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "AMETEK",
+            "exchange": "Issuance",
+            "ipoDate": "1930-07-01T00:00:00Z",
+            "issueSize": "231205619",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "e2e302b6-dc16-4797-a3d3-9cd8277c0f91",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "930396ed-8add-4c02-9798-745a88373a79",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000B9XG87",
+            "ticker": "AME",
+            "classCode": "SPBXM",
+            "isin": "US0311001004",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "AMETEK",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1930-07-01T00:00:00Z",
+            "issueSize": "231205619",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "840d4cc6-93a3-474d-a600-07330bdc1eda",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "0d05695f-46e9-4b2d-acc0-6b3f14398a14",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "1997-08-01T00:00:00Z"
+        }
+    ]
+}

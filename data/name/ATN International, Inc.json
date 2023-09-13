@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000F8RCH1",
+            "ticker": "ATNI",
+            "classCode": "SPBXM",
+            "isin": "US00215F1075",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "ATN International, Inc",
+            "exchange": "SPB",
+            "issueSize": "16144061",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "50000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "fe4c6720-d09e-46d4-b6c1-c78664e4fa0a",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "998147e2-e730-4510-a47b-3a8565917087",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-07-29T13:30:00Z",
+            "first1dayCandleDate": "2020-07-29T07:00:00Z"
+        },
+        {
+            "figi": "US00215F1075",
+            "ticker": "US00215F1075",
+            "classCode": "SPBXM_OTC",
+            "isin": "US00215F1075",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "ATN International, Inc",
+            "exchange": "Issuance",
+            "issueSize": "16144061",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "50000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "41a9c562-059b-40cf-b153-f1e855e9ed32",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "6fd36df5-fac1-485d-b871-2150fe06df01",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG001DCCGR8",
+            "ticker": "MPC",
+            "classCode": "SPBXM",
+            "isin": "US56585A1025",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Marathon Petroleum",
+            "exchange": "SPB_MORNING",
+            "issueSize": "638202178",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "c4ef80ab-4e90-41a2-970c-1110e53d14d6",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "e48f9d2d-e50b-4620-a321-bed1b6adeb27",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:26:00Z",
+            "first1dayCandleDate": "2011-06-23T00:00:00Z"
+        },
+        {
+            "figi": "US56585A1025",
+            "ticker": "US56585A1025",
+            "classCode": "SPBXM_OTC",
+            "isin": "US56585A1025",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Marathon Petroleum",
+            "exchange": "Issuance",
+            "issueSize": "638202178",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "db544ef2-1a3e-4dbb-9003-8e4136a1d062",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "c19a836d-ee5e-4c27-977d-e239c4807c49",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

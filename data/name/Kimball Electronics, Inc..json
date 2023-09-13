@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG0018DT0K6",
+            "ticker": "KE",
+            "classCode": "KE",
+            "isin": "US49428J1097",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Kimball Electronics, Inc.",
+            "exchange": "nasdaq",
+            "issueSize": "24957061",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "150000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "990ecddb-728b-4609-a82a-2c7794573db5",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "a87c6b67-e27c-4650-9ce6-d76121623761",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

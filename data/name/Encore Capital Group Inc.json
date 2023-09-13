@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000F369C7",
+            "ticker": "ECPG",
+            "classCode": "SPBXM",
+            "isin": "US2925541029",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Encore Capital Group Inc",
+            "exchange": "SPB",
+            "issueSize": "31058771",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "75000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "f792089c-b65e-47f9-8f7c-021a2b0645d7",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "e3c9e0e0-d5ed-4dd9-bb00-ffe97f5abea6",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-10-31T13:30:00Z",
+            "first1dayCandleDate": "2019-10-31T07:00:00Z"
+        },
+        {
+            "figi": "US2925541029",
+            "ticker": "US2925541029",
+            "classCode": "SPBXM_OTC",
+            "isin": "US2925541029",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Encore Capital Group Inc",
+            "exchange": "Issuance",
+            "issueSize": "31058771",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "75000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "6e4ea029-ad00-4473-9d91-cfeec2581824",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "f2e6823f-1a90-409e-8961-bb019a1d8dc0",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

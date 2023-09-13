@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00KFWZC67",
+            "ticker": "MREO",
+            "classCode": "MREO",
+            "isin": "US5894921072",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "\u0410\u0414\u0420 Mereo BioPharma Group",
+            "exchange": "Issuance",
+            "issueSize": "108142781",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "5",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "375ef9fe-e278-49c6-b65a-65acec864361",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "c157ed05-d0a5-4086-8903-fa68d34580d7",
+            "forIisFlag": false,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

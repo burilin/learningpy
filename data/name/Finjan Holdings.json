@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000JCDNT6",
+            "ticker": "FNJN",
+            "classCode": "nasdaq",
+            "isin": "US31788H3030",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Finjan Holdings",
+            "exchange": "Issuance",
+            "issueSize": "27685554",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "1e0347bb-54ba-4938-88d7-1ab95b99149a",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "4f3d3798-6b27-4da4-aa6c-6fb9d72fe49b",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

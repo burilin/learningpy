@@ -1,0 +1,47 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000F0PF65",
+            "ticker": "TWX",
+            "classCode": "SPBXM",
+            "isin": "US8873173038",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Time Warner",
+            "exchange": "SPB",
+            "ipoDate": "1992-03-19T00:00:00Z",
+            "issueSize": "1044776990",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "4ac267bd-d180-4e2b-8ca3-26f4fae6cf67",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "a991433b-5f17-4836-8886-a83f5b657f2d",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "2018-01-23T07:00:00Z"
+        }
+    ]
+}

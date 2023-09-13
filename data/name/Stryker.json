@@ -1,0 +1,112 @@
+{
+    "instruments": [
+        {
+            "figi": "US8636671013",
+            "ticker": "US8636671013",
+            "classCode": "SPBXM_OTC",
+            "isin": "US8636671013",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Stryker",
+            "exchange": "Issuance",
+            "ipoDate": "1979-05-01T00:00:00Z",
+            "issueSize": "377096272",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "f9d50d61-7f09-4f67-8524-d1c42fc5cb64",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "a5069c3f-1451-4148-9860-a02b47e7c7a0",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000DN7P92",
+            "ticker": "SYK",
+            "classCode": "SPBXM",
+            "isin": "US8636671013",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Stryker",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1979-05-01T00:00:00Z",
+            "issueSize": "377096272",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "39220089-7aa3-485f-b649-67e236c893b7",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "707dcffe-3861-4d22-88ae-7589dfaa65de",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "1988-09-12T00:00:00Z"
+        }
+    ]
+}

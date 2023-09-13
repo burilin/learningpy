@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00B8SPV90",
+            "ticker": "CCAP",
+            "classCode": "CCAP",
+            "isin": "LU1296758029",
+            "lot": 1,
+            "currency": "eur",
+            "shortEnabledFlag": false,
+            "name": "Corestate Capital Holding SA",
+            "exchange": "xetra",
+            "issueSize": "21235299",
+            "countryOfRisk": "LU",
+            "countryOfRiskName": "\u0412\u0435\u043b\u0438\u043a\u043e\u0435 \u0413\u0435\u0440\u0446\u043e\u0433\u0441\u0442\u0432\u043e \u041b\u044e\u043a\u0441\u0435\u043c\u0431\u0443\u0440\u0433",
+            "sector": "real_estate",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "eur",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "954d8b43-2967-4656-b6c1-f8621a35ae7a",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "bcc74224-03f1-4ff6-b073-0a91b6b7095f",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

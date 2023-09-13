@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00H00J2N1",
+            "ticker": "ALIT",
+            "classCode": "SPBXM",
+            "isin": "US01626W1018",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Alight",
+            "exchange": "SPB",
+            "issueSize": "446790011",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "14a3daf0-d760-451c-994b-d2e59e531377",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "3be3f618-b1c9-46ea-807d-317a180e3ec1",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2021-11-10T12:46:00Z",
+            "first1dayCandleDate": "2021-11-10T07:00:00Z"
+        }
+    ]
+}

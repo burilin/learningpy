@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG002GKBNW5",
+            "ticker": "SUMO",
+            "classCode": "SPBXM",
+            "isin": "US86646P1030",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Sumo Logic, Inc.",
+            "exchange": "SPB",
+            "issueSize": "102318468",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "7c8a58b1-a6d3-4edf-8d46-42af50d9f6d1",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "e8a213fe-cb25-4634-ab47-e5e66a0b3938",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2022-10-03T12:39:00Z",
+            "first1dayCandleDate": "2022-10-03T07:00:00Z"
+        },
+        {
+            "figi": "US86646P1030",
+            "ticker": "US86646P1030",
+            "classCode": "SPBXM_OTC",
+            "isin": "US86646P1030",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Sumo Logic, Inc.",
+            "exchange": "Issuance",
+            "issueSize": "102318468",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "2e880509-7b03-4702-9c67-a6da3f39d5c3",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "ad864653-3291-41eb-a2e9-89e28f8e508d",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        }
+    ]
+}

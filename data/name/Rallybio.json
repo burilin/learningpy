@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG011PFKF54",
+            "ticker": "RLYB",
+            "classCode": "RLYB",
+            "isin": "US75120L1008",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Rallybio",
+            "exchange": "Issuance",
+            "issueSize": "32129970",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "ac073b98-c0a5-4ee4-b5bf-7d25bd08d7ff",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "28c5fae1-4426-4bee-9cea-a400a214d3e7",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

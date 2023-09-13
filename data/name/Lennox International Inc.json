@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BB5B84",
+            "ticker": "LII",
+            "classCode": "SPBXM",
+            "isin": "US5261071071",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Lennox International Inc",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1999-07-28T00:00:00Z",
+            "issueSize": "39872002",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "c0443ded-66a8-4e59-aad1-f851e7a2916b",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "df87e5b1-2b3a-427c-9d13-f9d5bcc81619",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-01-31T14:30:00Z",
+            "first1dayCandleDate": "1999-07-29T00:00:00Z"
+        },
+        {
+            "figi": "US5261071071",
+            "ticker": "US5261071071",
+            "classCode": "SPBXM_OTC",
+            "isin": "US5261071071",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Lennox International Inc",
+            "exchange": "Issuance",
+            "ipoDate": "1999-07-28T00:00:00Z",
+            "issueSize": "39872002",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "ac93163c-a1f7-404b-ba52-2cf7de660157",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e39cd61d-b6eb-456c-a915-b80b9f4df49a",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

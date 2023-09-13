@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "US9099071071",
+            "ticker": "US9099071071",
+            "classCode": "SPBXM_OTC",
+            "isin": "US9099071071",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "United Bankshares, Inc.",
+            "exchange": "Issuance",
+            "issueSize": "105141385",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "2",
+                "nano": 500000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "0e489350-6191-423f-8fd7-042ca0482032",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "dcd2c19e-b5c0-435a-bd37-0a97a3a0ec13",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000BVXC87",
+            "ticker": "UBSI",
+            "classCode": "SPBXM",
+            "isin": "US9099071071",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "United Bankshares, Inc.",
+            "exchange": "SPB",
+            "issueSize": "105141385",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "2",
+                "nano": 500000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "a3d08ae4-4ae3-4d93-b79f-09d3e0686659",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "d977355c-8180-430b-8d98-eaa7df890d54",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-12-04T14:30:00Z",
+            "first1dayCandleDate": "2020-12-04T07:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "instruments": [
+        {
+            "figi": "TCS00A0DKVS5",
+            "ticker": "NVTK",
+            "classCode": "SPEQ",
+            "isin": "RU000A0DKVS5",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "\u041d\u041e\u0412\u0410\u0422\u042d\u041a",
+            "exchange": "Issuance",
+            "ipoDate": "2006-07-20T00:00:00Z",
+            "issueSize": "3036306000",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "energy",
+            "issueSizePlan": "3036306000",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "031cb840-3629-48ff-ba26-e271fb4b2253",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "e9aa66a5-573d-4b96-9ebc-7c4c3d520e44",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": true,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2018-03-16T12:31:00Z",
+            "first1dayCandleDate": "2018-03-16T07:00:00Z"
+        },
+        {
+            "figi": "BBG00475KKY8",
+            "ticker": "NVTK",
+            "classCode": "TQBR",
+            "isin": "RU000A0DKVS5",
+            "lot": 1,
+            "currency": "rub",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "0",
+                "nano": 200000000
+            },
+            "dshort": {
+                "units": "0",
+                "nano": 200000000
+            },
+            "dlongMin": {
+                "units": "0",
+                "nano": 105600000
+            },
+            "dshortMin": {
+                "units": "0",
+                "nano": 95400000
+            },
+            "shortEnabledFlag": true,
+            "name": "\u041d\u041e\u0412\u0410\u0422\u042d\u041a",
+            "exchange": "MOEX_EVENING_WEEKEND",
+            "ipoDate": "2006-07-20T00:00:00Z",
+            "issueSize": "3036306000",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "energy",
+            "issueSizePlan": "3036306000",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 200000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "0da66728-6c30-44c4-9264-df8fac2467ee",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "e9aa66a5-573d-4b96-9ebc-7c4c3d520e44",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": true,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2018-03-07T18:34:00Z",
+            "first1dayCandleDate": "2004-12-30T07:00:00Z"
+        }
+    ]
+}

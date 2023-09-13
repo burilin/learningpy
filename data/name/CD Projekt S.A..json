@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00Q9LSC54",
+            "ticker": "OTGLY",
+            "classCode": "OTGLY",
+            "isin": "US1251051066",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "CD Projekt S.A.",
+            "exchange": "otcus",
+            "issueSize": "402955200",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 250000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "4d61a0de-71a8-4a37-8382-2775695588f2",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e9b140d5-6af6-498c-977d-9c5e2551495e",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

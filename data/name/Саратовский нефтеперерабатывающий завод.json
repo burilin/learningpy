@@ -1,0 +1,47 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG002B2J6C1",
+            "ticker": "KRKN",
+            "classCode": "TQBR",
+            "isin": "RU0009100408",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "\u0421\u0430\u0440\u0430\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043d\u0435\u0444\u0442\u0435\u043f\u0435\u0440\u0435\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u044e\u0449\u0438\u0439 \u0437\u0430\u0432\u043e\u0434",
+            "exchange": "MOEX",
+            "ipoDate": "2007-06-05T00:00:00Z",
+            "issueSize": "748012",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "energy",
+            "issueSizePlan": "748012",
+            "nominal": {
+                "currency": "rub",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "50",
+                "nano": 0
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "3d83aedf-b48f-4791-9370-c0569170a82d",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "4946c228-a57d-482b-9d74-593f73b87109",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-03-12T16:01:00Z",
+            "first1dayCandleDate": "2018-03-12T07:00:00Z"
+        }
+    ]
+}

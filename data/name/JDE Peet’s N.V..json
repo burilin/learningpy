@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00TZ4G8T3",
+            "ticker": "JDEP",
+            "classCode": "JDEP",
+            "isin": "NL0014332678",
+            "lot": 1,
+            "currency": "eur",
+            "shortEnabledFlag": false,
+            "name": "JDE Peet\u2019s N.V.",
+            "exchange": "euronextamsterdam",
+            "issueSize": "498719501",
+            "countryOfRisk": "NL",
+            "countryOfRiskName": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u043e\u0432",
+            "sector": "consumer",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "eur",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "f063caaa-c056-44fc-a0cb-2f3aa9528f15",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "141e5ac3-afd3-49bd-8443-9f00b6d38ef4",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

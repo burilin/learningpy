@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000C1DF05",
+            "ticker": "RBA",
+            "classCode": "SPBXM",
+            "isin": "CA74935Q1072",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "RB Global",
+            "exchange": "SPB",
+            "issueSize": "110280611",
+            "countryOfRisk": "CA",
+            "countryOfRiskName": "",
+            "sector": "industrials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "cad",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "b03ca2d6-ce21-41f3-a687-3db2e297f77b",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "81f92440-8dd6-4332-9241-4b1eaed3c11e",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2023-03-29T13:20:00Z",
+            "first1dayCandleDate": "2023-03-29T07:00:00Z"
+        }
+    ]
+}

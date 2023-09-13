@@ -1,0 +1,110 @@
+{
+    "instruments": [
+        {
+            "figi": "US92828Q1094",
+            "ticker": "US92828Q1094",
+            "classCode": "SPBXM_OTC",
+            "isin": "US92828Q1094",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Virtus Investment Partners",
+            "exchange": "Issuance",
+            "issueSize": "7695445",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "effa7bd0-5643-42a9-b1e9-6af73f850112",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "c8729060-2e8a-484d-9fd9-eaf7ee09670d",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000DMFQS2",
+            "ticker": "VRTS",
+            "classCode": "SPBXM",
+            "isin": "US92828Q1094",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Virtus Investment Partners",
+            "exchange": "SPB",
+            "issueSize": "7695445",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "076dd425-5cf4-4a17-9c18-2cbd5b5b6d51",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "e88aba27-35ba-4147-8d78-e7f0437c10b1",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-10-13T13:30:00Z",
+            "first1dayCandleDate": "2020-10-13T07:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "US0003611052",
+            "ticker": "US0003611052",
+            "classCode": "SPBXM_OTC",
+            "isin": "US0003611052",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "AAR Corp",
+            "exchange": "Issuance",
+            "ipoDate": "1967-01-01T00:00:00Z",
+            "issueSize": "34729373",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "100000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "29282fc2-da9e-41a9-a612-f1b0a00e6edf",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "26a13c9a-681a-4317-990b-26069d338a84",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000BBGQF1",
+            "ticker": "AIR",
+            "classCode": "SPBXM",
+            "isin": "US0003611052",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "AAR Corp",
+            "exchange": "SPB",
+            "ipoDate": "1967-01-01T00:00:00Z",
+            "issueSize": "34729373",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "100000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "61ba1b2d-4a82-4518-8965-d32aba768f0d",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "abd8d117-2ebf-472a-a96d-17decabf51c1",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-02-28T14:51:00Z",
+            "first1dayCandleDate": "1989-05-24T00:00:00Z"
+        }
+    ]
+}

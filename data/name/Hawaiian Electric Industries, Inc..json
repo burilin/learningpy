@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BL0P40",
+            "ticker": "HE",
+            "classCode": "SPBXM",
+            "isin": "US4198701009",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Hawaiian Electric Industries, Inc.",
+            "exchange": "SPB",
+            "issueSize": "109181124",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "utilities",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "ca3df003-d43b-4c61-850d-674e34f569a0",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "103251b7-bb1e-4dfd-aa63-5d6a8c118ed3",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-12-04T14:34:00Z",
+            "first1dayCandleDate": "2020-12-04T07:00:00Z"
+        },
+        {
+            "figi": "US4198701009",
+            "ticker": "US4198701009",
+            "classCode": "SPBXM_OTC",
+            "isin": "US4198701009",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Hawaiian Electric Industries, Inc.",
+            "exchange": "Issuance",
+            "issueSize": "109181124",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "utilities",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "f4f50659-2332-4e51-be83-b514c20d0819",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e44249c9-2df5-449e-be3f-52149ffa6bb9",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

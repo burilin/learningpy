@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "US08579W1036",
+            "ticker": "US08579W1036",
+            "classCode": "SPBXM_OTC",
+            "isin": "US08579W1036",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Berry Global Group Inc",
+            "exchange": "Issuance",
+            "ipoDate": "2012-10-04T00:00:00Z",
+            "issueSize": "130600000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "5160e130-74c7-4318-974e-2ddf76542ab0",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "da36d501-6d57-4ff7-896b-bf911f64fac3",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000Q1R1Y9",
+            "ticker": "BERY",
+            "classCode": "SPBXM",
+            "isin": "US08579W1036",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Berry Global Group Inc",
+            "exchange": "SPB",
+            "ipoDate": "2012-10-04T00:00:00Z",
+            "issueSize": "130600000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "bb54ebb5-e246-4e31-a5a4-295396e598ea",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "057287c6-330a-4955-8e2f-44d68560f3ec",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-02-28T14:31:00Z",
+            "first1dayCandleDate": "2012-10-04T00:00:00Z"
+        }
+    ]
+}

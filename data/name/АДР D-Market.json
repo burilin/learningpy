@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG0118LTKW0",
+            "ticker": "HEPS",
+            "classCode": "HEPS",
+            "isin": "US23292B1044",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "\u0410\u0414\u0420 D-Market",
+            "exchange": "nasdaq",
+            "issueSize": "285998290",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "consumer",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "8cac99a6-fa53-451d-940b-5ee44b82a868",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "0355ff03-c9c9-4682-a8d9-6124b96f473d",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

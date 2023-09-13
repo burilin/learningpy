@@ -1,0 +1,47 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG002Z691S1",
+            "ticker": "URKZ",
+            "classCode": "TQBR",
+            "isin": "RU000A0JPFY2",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "\u0423\u0440\u0430\u043b\u043a\u0443\u0437",
+            "exchange": "MOEX",
+            "ipoDate": "2009-05-22T00:00:00Z",
+            "issueSize": "547761",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "industrials",
+            "issueSizePlan": "547761",
+            "nominal": {
+                "currency": "rub",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "50",
+                "nano": 0
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "9ec09704-0912-4ab8-9ebf-3fdad6fd3944",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "4288206e-636c-4300-96e2-ddf9f2654eb6",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-03-08T03:06:00Z",
+            "first1dayCandleDate": "2018-03-13T07:00:00Z"
+        }
+    ]
+}

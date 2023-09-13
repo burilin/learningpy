@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BH3F20",
+            "ticker": "CG",
+            "classCode": "SPBXM",
+            "isin": "US14316J1088",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Carlyle Group",
+            "exchange": "SPB",
+            "issueSize": "350000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "100000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_MLP",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "9199ed48-bd05-4fda-b5d0-25c56d42e582",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "45ce7214-9306-4432-b00d-6e98c31af386",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2022-07-18T12:51:00Z",
+            "first1dayCandleDate": "2022-07-18T07:00:00Z"
+        },
+        {
+            "figi": "US14316J1088",
+            "ticker": "US14316J1088",
+            "classCode": "SPBXM_OTC",
+            "isin": "US14316J1088",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Carlyle Group",
+            "exchange": "Issuance",
+            "issueSize": "350000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "100000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_MLP",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "23bab4b6-f5ad-4335-9840-405b4f89c6d5",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "7a9f624b-6332-428e-8424-064d8f804b1a",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        }
+    ]
+}

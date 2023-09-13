@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00W9LXXJ4",
+            "ticker": "CVAC",
+            "classCode": "CVAC",
+            "isin": "NL0015436031",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "CureVac NV",
+            "exchange": "Issuance",
+            "issueSize": "155259871",
+            "countryOfRisk": "DE",
+            "countryOfRiskName": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+            "sector": "health_care",
+            "issueSizePlan": "386250000",
+            "nominal": {
+                "currency": "eur",
+                "units": "0",
+                "nano": 120000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "b8d8a847-7016-4e1b-9bc1-744b23459121",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "902afdc6-8b3d-4d3c-b0d1-5363eb0f79d1",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

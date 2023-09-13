@@ -1,0 +1,110 @@
+{
+    "instruments": [
+        {
+            "figi": "US9224751084",
+            "ticker": "US9224751084",
+            "classCode": "SPBXM_OTC",
+            "isin": "US9224751084",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Veeva Systems Inc",
+            "exchange": "Issuance",
+            "issueSize": "102868549",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "800000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "99eb16c0-8518-42f5-9206-aff2c5f22c0e",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "29915522-4972-4ddb-b63e-e64789fba01b",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG001CGB489",
+            "ticker": "VEEV",
+            "classCode": "SPBXM",
+            "isin": "US9224751084",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Veeva Systems Inc",
+            "exchange": "SPB_MORNING",
+            "issueSize": "102868549",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "800000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "f72fdb53-533f-4dba-91e8-c476807be0a6",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "9c1e2d18-254a-412c-b7d9-1c8b0261dd19",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-01-31T14:15:00Z",
+            "first1dayCandleDate": "2013-10-16T00:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00B6S3511",
+            "ticker": "AT1",
+            "classCode": "AT1",
+            "isin": "LU1673108939",
+            "lot": 1,
+            "currency": "eur",
+            "shortEnabledFlag": false,
+            "name": "Aroundtown SA",
+            "exchange": "xetra",
+            "issueSize": "947779023",
+            "countryOfRisk": "DE",
+            "countryOfRiskName": "\u0424\u0435\u0434\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+            "sector": "real_estate",
+            "issueSizePlan": "2000000000",
+            "nominal": {
+                "currency": "eur",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "0e919a1f-f7aa-40c2-8d58-bb76851bd3b8",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "7e047c49-87ad-4ee4-a937-f79dfa29268f",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG002PHSYX9",
+            "ticker": "FANG",
+            "classCode": "SPBXM",
+            "isin": "US25278X1090",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Diamondback Energy Inc",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "2012-10-12T00:00:00Z",
+            "issueSize": "181053648",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "8777854f-c9d2-4e0c-842d-ea6d4987d30d",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "13066f35-08a5-42a4-93db-2057825cc8cd",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-01-31T14:29:00Z",
+            "first1dayCandleDate": "2012-10-12T00:00:00Z"
+        },
+        {
+            "figi": "US25278X1090",
+            "ticker": "US25278X1090",
+            "classCode": "SPBXM_OTC",
+            "isin": "US25278X1090",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Diamondback Energy Inc",
+            "exchange": "Issuance",
+            "ipoDate": "2012-10-12T00:00:00Z",
+            "issueSize": "181053648",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "188f4597-b139-40a7-aa57-5f29101c28fe",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "4679c037-99bb-4d59-ac8e-f5103415a108",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

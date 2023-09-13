@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG001BPKGT0",
+            "ticker": "MDLA",
+            "classCode": "SPBXM",
+            "isin": "US5840211099",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Medallia Inc",
+            "exchange": "SPB",
+            "issueSize": "121603976",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "0943e2d1-ada9-4bc2-a4e6-2ca986e892e0",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "a8dab99a-bb1b-4008-ba1c-43ebc3cb757d",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-12-04T13:43:00Z",
+            "first1dayCandleDate": "2020-12-04T07:00:00Z"
+        }
+    ]
+}

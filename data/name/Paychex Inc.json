@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BQSQ38",
+            "ticker": "PAYX",
+            "classCode": "SPBXM",
+            "isin": "US7043261079",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Paychex Inc",
+            "exchange": "SPB_MORNING",
+            "issueSize": "360590737",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "600000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "71aa83c9-f872-4673-aaec-f09d530497d4",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "03f986b1-0203-411a-8e47-de7026356200",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2021-07-30T12:00:00Z",
+            "first1dayCandleDate": "2021-07-30T07:00:00Z"
+        },
+        {
+            "figi": "US7043261079",
+            "ticker": "US7043261079",
+            "classCode": "SPBXM_OTC",
+            "isin": "US7043261079",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Paychex Inc",
+            "exchange": "Issuance",
+            "issueSize": "360590737",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "600000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "40edbbc7-dede-4f09-9ea3-97e4ea7a1216",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "dbfe3229-3db9-4b59-a402-5fc08cefc1a2",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000B9ZLB0",
+            "ticker": "CGEN",
+            "classCode": "SPBXM",
+            "isin": "IL0010852080",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Compugen",
+            "exchange": "SPB",
+            "issueSize": "76256170",
+            "countryOfRisk": "IL",
+            "countryOfRiskName": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0418\u0437\u0440\u0430\u0438\u043b\u044c",
+            "sector": "health_care",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "ils",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "376abc5c-359f-4d59-8a9c-468e8c92282f",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "09d79e55-b32d-4807-8ead-ac2734ae087f",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-12-04T14:30:00Z",
+            "first1dayCandleDate": "2020-12-04T07:00:00Z"
+        },
+        {
+            "figi": "IL0010852080",
+            "ticker": "IL0010852080",
+            "classCode": "SPBXM_OTC",
+            "isin": "IL0010852080",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Compugen",
+            "exchange": "Issuance",
+            "issueSize": "76256170",
+            "countryOfRisk": "IL",
+            "countryOfRiskName": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u043e \u0418\u0437\u0440\u0430\u0438\u043b\u044c",
+            "sector": "health_care",
+            "issueSizePlan": "200000000",
+            "nominal": {
+                "currency": "ils",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "459efb05-38bd-4d64-aab4-cee9e99df07b",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "f652e033-ef71-412d-b466-3fce24b95662",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

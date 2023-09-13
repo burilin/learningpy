@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000F0XHJ8",
+            "ticker": "TKC",
+            "classCode": "nyse",
+            "isin": "US9001112047",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Turkcell",
+            "exchange": "nyse",
+            "issueSize": "880000000",
+            "countryOfRisk": "TR",
+            "countryOfRiskName": "\u0422\u0443\u0440\u0435\u0446\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+            "sector": "telecom",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "2",
+                "nano": 500000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "2629a66b-3609-4e22-ab76-9a5cbb92d39d",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "cfe8b219-2f77-47bb-acfd-a31d011b0be6",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

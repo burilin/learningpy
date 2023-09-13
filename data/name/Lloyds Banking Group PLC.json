@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000C3VPQ1",
+            "ticker": "LYG",
+            "classCode": "LYG",
+            "isin": "US5394391099",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Lloyds Banking Group PLC",
+            "exchange": "nyse",
+            "issueSize": "17755648284",
+            "countryOfRisk": "GB",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u043e\u0435 \u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u0438 \u0438 \u0421\u0435\u0432\u0435\u0440\u043d\u043e\u0439 \u0418\u0440\u043b\u0430\u043d\u0434\u0438\u0438",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "4",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "3fe50417-e783-44ed-abc4-4b22ea7a7a6a",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "2805376c-0432-4180-8795-0fe94433ac1a",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

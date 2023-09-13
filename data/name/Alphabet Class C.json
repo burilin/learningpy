@@ -1,0 +1,152 @@
+{
+    "instruments": [
+        {
+            "figi": "US02079K1079",
+            "ticker": "US02079K1079",
+            "classCode": "SPBXM_OTC",
+            "isin": "US02079K1079",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Alphabet Class C",
+            "exchange": "Issuance",
+            "issueSize": "6163000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "60000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "8043ee7f-ac2f-44e3-bd08-ed0329e513d0",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "5980691f-6fc9-4417-a54f-8195e6a66eaa",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        },
+        {
+            "figi": "TCS2079K1079",
+            "ticker": "GOOG-RM",
+            "classCode": "FQBR",
+            "isin": "US02079K1079",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "Alphabet Class C",
+            "exchange": "moex_close",
+            "issueSize": "6163000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "60000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "1",
+                "nano": 0
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "1ce00e5e-f72c-45a7-bbf6-f936a44311de",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "344ca1a4-bf33-459a-acf6-228792496798",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2020-08-24T07:06:00Z",
+            "first1dayCandleDate": "2020-08-24T07:00:00Z"
+        },
+        {
+            "figi": "BBG009S3NB30",
+            "ticker": "GOOG",
+            "classCode": "SPBXM",
+            "isin": "US02079K1079",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Alphabet Class C",
+            "exchange": "SPB",
+            "issueSize": "6163000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "60000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "405badee-e508-40b8-824b-eb811d358787",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "6091acc2-3e23-4d0c-b5b7-c52fdf30cd7e",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T07:03:00Z",
+            "first1dayCandleDate": "2014-03-27T00:00:00Z"
+        }
+    ]
+}

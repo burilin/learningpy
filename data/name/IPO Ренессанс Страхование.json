@@ -1,0 +1,41 @@
+{
+    "instruments": [
+        {
+            "figi": "FAKEFAKEREN1",
+            "ticker": "FAKEFAKEREN1",
+            "classCode": "FAKEFAKEREN1",
+            "isin": "ISSUANCEREN1",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "IPO \u0420\u0435\u043d\u0435\u0441\u0441\u0430\u043d\u0441 \u0421\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u0435",
+            "exchange": "Issuance",
+            "ipoDate": "2021-10-15T00:00:00Z",
+            "issueSize": "0",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "2f01f92a-8bc0-4319-b762-8167986f7f45",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "b1c991ba-fa70-4635-a7b3-03aed1bfa45b",
+            "forIisFlag": false,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

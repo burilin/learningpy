@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000K0CZL2",
+            "ticker": "HSBK",
+            "classCode": "lse",
+            "isin": "US46627J3023",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Halyk Savings Bank of Kazakhstan",
+            "exchange": "dealer_int_exchange",
+            "issueSize": "278212961",
+            "countryOfRisk": "KZ",
+            "countryOfRiskName": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "4",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "fb474407-4b03-4caf-a215-8b4ce50270fb",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "0c3feda0-da83-46fc-a263-63a22bc0ed37",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false
+        }
+    ]
+}

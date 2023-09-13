@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BBMNG0",
+            "ticker": "SAH",
+            "classCode": "SPBXM",
+            "isin": "US83545G1022",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Sonic Automotive",
+            "exchange": "SPB",
+            "issueSize": "29565403",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "consumer",
+            "issueSizePlan": "100000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "3e9f65ad-58c5-4147-b33b-db416ea06773",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "22c135e6-6e5e-46ff-b364-430cd9699e92",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2022-07-18T12:30:00Z",
+            "first1dayCandleDate": "2022-07-18T07:00:00Z"
+        }
+    ]
+}

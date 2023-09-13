@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BB0JR1",
+            "ticker": "XELB",
+            "classCode": "nasdaq",
+            "isin": "US98400M1018",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Xcel Brands Inc",
+            "exchange": "nasdaq",
+            "issueSize": "18",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "telecom",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "a82ba78c-f205-4a5d-9eaf-fb44ec3ea3c6",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "5796e14b-9f13-4e8f-a68d-d1c66850d9e8",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "ISSANCESPOPO",
+            "ticker": "ISSANCESPOPO",
+            "classCode": "ISSANCESPOPO",
+            "isin": "ISSANCESPOPO",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "SPO Positive Technologies",
+            "exchange": "Issuance",
+            "issueSize": "0",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "c341495c-e992-4ba4-a787-ded9cd8ed8f2",
+            "realExchange": "REAL_EXCHANGE_UNSPECIFIED",
+            "positionUid": "a06afc91-91eb-4aca-accf-00039d2c837a",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

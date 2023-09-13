@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000PNF9F9",
+            "ticker": "AMKBY",
+            "classCode": "AMKBY",
+            "isin": "US00202F1021",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "\u0410\u0414\u0420 AP Moller-Maersk AS",
+            "exchange": "otcus",
+            "issueSize": "1781560200",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "industrials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 5000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "e15a82ff-1cb1-4d45-807d-c2b137a8c22b",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "914ede17-a161-417d-85d8-77e445c7c8b4",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

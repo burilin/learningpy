@@ -1,0 +1,88 @@
+{
+    "instruments": [
+        {
+            "figi": "US8894781033",
+            "ticker": "US8894781033",
+            "classCode": "SPBXM_OTC",
+            "isin": "US8894781033",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Toll Brothers Inc",
+            "exchange": "Issuance",
+            "ipoDate": "1986-07-16T00:00:00Z",
+            "issueSize": "145940000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "consumer",
+            "issueSizePlan": "400000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "17657a77-534f-49c3-aaa9-a2e6eef8ac62",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e64c8426-496e-475a-ae5b-099df1c2056f",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000BVHBM1",
+            "ticker": "TOL",
+            "classCode": "SPBXM",
+            "isin": "US8894781033",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Toll Brothers Inc",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1986-07-16T00:00:00Z",
+            "issueSize": "145940000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "consumer",
+            "issueSizePlan": "400000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "d8fd77dc-9a9c-4a47-8c0f-dcfd406d594b",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "de8aadd5-e7d5-4980-b6de-a381b81e7e59",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-04-04T13:31:00Z",
+            "first1dayCandleDate": "1989-06-28T00:00:00Z"
+        }
+    ]
+}

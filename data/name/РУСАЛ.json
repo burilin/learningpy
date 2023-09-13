@@ -1,0 +1,154 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG008F2T3T2",
+            "ticker": "RUAL",
+            "classCode": "TQBR",
+            "isin": "RU000A1025V3",
+            "lot": 10,
+            "currency": "rub",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "0",
+                "nano": 200000000
+            },
+            "dshort": {
+                "units": "0",
+                "nano": 200000000
+            },
+            "dlongMin": {
+                "units": "0",
+                "nano": 105600000
+            },
+            "dshortMin": {
+                "units": "0",
+                "nano": 95400000
+            },
+            "shortEnabledFlag": true,
+            "name": "\u0420\u0423\u0421\u0410\u041b",
+            "exchange": "MOEX_EVENING_WEEKEND",
+            "ipoDate": "2020-09-03T00:00:00Z",
+            "issueSize": "15193014862",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "materials",
+            "issueSizePlan": "15193014862",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 656517000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 5000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "f866872b-8f68-4b6e-930f-749fe9aa79c0",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "b303003a-c09d-4169-ab12-c9f67f183695",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": true,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2018-03-07T18:33:00Z",
+            "first1dayCandleDate": "2015-03-30T07:00:00Z"
+        },
+        {
+            "figi": "TCS00A1025V3",
+            "ticker": "RUAL",
+            "classCode": "SPEQ",
+            "isin": "RU000A1025V3",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "\u0420\u0423\u0421\u0410\u041b",
+            "exchange": "Issuance",
+            "ipoDate": "2020-09-03T00:00:00Z",
+            "issueSize": "15193014862",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "materials",
+            "issueSizePlan": "15193014862",
+            "nominal": {
+                "currency": "rub",
+                "units": "0",
+                "nano": 656517000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 1000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "a17a4150-11db-4225-8b07-de1debfa4810",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "b303003a-c09d-4169-ab12-c9f67f183695",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": true,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2022-03-30T06:35:00Z",
+            "first1dayCandleDate": "2022-03-30T07:00:00Z"
+        },
+        {
+            "figi": "TCS008F2T3T2",
+            "ticker": "RUAL_old",
+            "classCode": "TQBR",
+            "isin": "JE00B5BCW814",
+            "lot": 10,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "\u0420\u0423\u0421\u0410\u041b",
+            "exchange": "moex_close",
+            "issueSize": "15193014862",
+            "countryOfRisk": "RU",
+            "countryOfRiskName": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 5000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "4ed50129-4955-4e5f-9995-f330efa4871f",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "b9eb9a8e-1cca-44e1-81f7-ffb955288fd9",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

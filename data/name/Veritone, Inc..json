@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG007NJLS39",
+            "ticker": "VERI",
+            "classCode": "VERI",
+            "isin": "US92347M1009",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Veritone, Inc.",
+            "exchange": "nasdaq",
+            "issueSize": "30719753",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "75000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "c1b369dc-cd51-48fb-86f6-f6a638ec96c3",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "fbf13375-8784-4344-a89b-5f801b809419",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

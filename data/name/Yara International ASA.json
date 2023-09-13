@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000LYQ4V0",
+            "ticker": "YARIY",
+            "classCode": "otcus",
+            "isin": "US9848512045",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Yara International ASA",
+            "exchange": "otcus",
+            "issueSize": "509451254",
+            "countryOfRisk": "NO",
+            "countryOfRiskName": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 500000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_ADR",
+            "apiTradeAvailableFlag": false,
+            "uid": "96bc8f67-6e58-4d40-9c30-cc3b9cf0b4ad",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "ab3e9d4b-ea57-4cb7-9a58-95c6f984e41c",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

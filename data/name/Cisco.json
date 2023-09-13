@@ -1,0 +1,155 @@
+{
+    "instruments": [
+        {
+            "figi": "US17275R1023",
+            "ticker": "US17275R1023",
+            "classCode": "SPBXM_OTC",
+            "isin": "US17275R1023",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Cisco",
+            "exchange": "Issuance",
+            "ipoDate": "1990-02-16T00:00:00Z",
+            "issueSize": "4217735917",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "20000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "c7446ea8-236d-4b53-88fd-482ccb2c13df",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "9d215500-6e62-4b27-b3d7-44c8f38830c6",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000C3J3C9",
+            "ticker": "CSCO",
+            "classCode": "SPBXM",
+            "isin": "US17275R1023",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Cisco",
+            "exchange": "SPB_MORNING",
+            "ipoDate": "1990-02-16T00:00:00Z",
+            "issueSize": "4217735917",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "20000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "a1f28fea-b2ab-46d8-8297-b85297232bf3",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "80c36ab8-e7e9-41e8-aaa4-ec3759e2419e",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T07:09:00Z",
+            "first1dayCandleDate": "1990-02-16T00:00:00Z"
+        },
+        {
+            "figi": "TCS7275R1023",
+            "ticker": "CSCO-RM",
+            "classCode": "FQBR",
+            "isin": "US17275R1023",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "Cisco",
+            "exchange": "moex_close",
+            "ipoDate": "1990-02-16T00:00:00Z",
+            "issueSize": "4217735917",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "20000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "1",
+                "nano": 0
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "bbce923c-9f9c-481c-a93a-c9fed2283904",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "4c083b63-a579-4d70-bd2a-74145ba7b5ac",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2020-11-02T07:02:00Z",
+            "first1dayCandleDate": "2020-11-02T07:00:00Z"
+        }
+    ]
+}

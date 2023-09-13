@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000KLDTJ2",
+            "ticker": "WETF",
+            "classCode": "WETF",
+            "isin": "US97717P1049",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "WisdomTree Investments, Inc",
+            "exchange": "nasdaq",
+            "issueSize": "136485963",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "250000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "8b6f4e44-c3d9-4f90-bb05-1e3d6430a0ef",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "184c34ce-a3cf-4b0e-856c-296ef0aac3c2",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

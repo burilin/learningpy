@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "US5562691080",
+            "ticker": "US5562691080",
+            "classCode": "SPBXM_OTC",
+            "isin": "US5562691080",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Steven Madden, Ltd.",
+            "exchange": "Issuance",
+            "issueSize": "84096759",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "consumer",
+            "issueSizePlan": "245000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "81625611-c75b-4bf7-b6a6-cb5152cbd970",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "3a84d108-4cdd-4833-80cb-534e2e2d1c26",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000BLV2Q3",
+            "ticker": "SHOO",
+            "classCode": "SPBXM",
+            "isin": "US5562691080",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Steven Madden, Ltd.",
+            "exchange": "SPB",
+            "issueSize": "84096759",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "consumer",
+            "issueSizePlan": "245000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "0382723a-5ea5-409b-a17e-67c31c26333e",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "ba6212a5-4d9e-4884-b170-d399c2722e27",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2020-12-04T14:30:00Z",
+            "first1dayCandleDate": "2020-12-04T07:00:00Z"
+        }
+    ]
+}

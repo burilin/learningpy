@@ -1,0 +1,47 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000BC40Y8",
+            "ticker": "APC",
+            "classCode": "SPBXM",
+            "isin": "US0325111070",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Anadarko",
+            "exchange": "SPB",
+            "ipoDate": "1959-06-08T00:00:00Z",
+            "issueSize": "507935794",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "energy",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "6a71a29d-975c-4a14-8f6e-e570bfb5201d",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "cdbe0f3b-9d83-4ed8-b4bf-476c5e50eb1f",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "1988-09-12T00:00:00Z"
+        }
+    ]
+}

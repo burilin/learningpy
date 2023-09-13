@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "US25402D1028",
+            "ticker": "US25402D1028",
+            "classCode": "SPBXM_OTC",
+            "isin": "US25402D1028",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "DigitalOcean Holdings",
+            "exchange": "Issuance",
+            "issueSize": "106563465",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "750000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 25000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "de62fdf2-0674-4d39-97b6-d14ad66449cd",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "91ad0437-64db-4fcc-8756-0ec371d78633",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        },
+        {
+            "figi": "BBG00ZGF6SS3",
+            "ticker": "DOCN",
+            "classCode": "SPBXM",
+            "isin": "US25402D1028",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "DigitalOcean Holdings",
+            "exchange": "SPB_MORNING",
+            "issueSize": "106563465",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "750000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 25000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "7ddba077-6194-4319-b740-6bd8453245f5",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "bd8c657c-db80-4236-9661-d85633123123",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2021-11-10T12:31:00Z",
+            "first1dayCandleDate": "2021-11-10T07:00:00Z"
+        }
+    ]
+}

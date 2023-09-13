@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000DLVDK3",
+            "ticker": "AEM",
+            "classCode": "SPBXM",
+            "isin": "CA0084741085",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Agnico Eagle Mines",
+            "exchange": "SPB_MORNING",
+            "issueSize": "217424509",
+            "countryOfRisk": "CA",
+            "countryOfRiskName": "",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "cad",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "05ec2e16-a92c-4df8-ae8f-97f03ddfc531",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "9039af68-8a20-4b7d-83b6-4469f14f2685",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2022-01-28T12:32:00Z",
+            "first1dayCandleDate": "2022-01-28T07:00:00Z"
+        },
+        {
+            "figi": "CA0084741085",
+            "ticker": "CA0084741085",
+            "classCode": "SPBXM_OTC",
+            "isin": "CA0084741085",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Agnico Eagle Mines",
+            "exchange": "Issuance",
+            "issueSize": "217424509",
+            "countryOfRisk": "CA",
+            "countryOfRiskName": "",
+            "sector": "materials",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "cad",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "b15f33a9-980f-454c-bf0e-110119ca7dab",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e6d68270-3d9d-4038-8956-051c859a1acc",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": true
+        }
+    ]
+}

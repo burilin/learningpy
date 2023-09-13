@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00SDHC8D1",
+            "ticker": "KYMR",
+            "classCode": "SPBXM",
+            "isin": "US5015751044",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Kymera Therapeutics",
+            "exchange": "SPB",
+            "issueSize": "51387136",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "150000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_BREAK_IN_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "c004b4cc-229f-4fe6-8d60-5b68ce234222",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "0aeac9ea-6398-4e69-a92d-8e862cda7241",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2023-04-12T12:08:00Z",
+            "first1dayCandleDate": "2023-04-12T07:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00YCZJCB5",
+            "ticker": "AGC",
+            "classCode": "AGC",
+            "isin": "KYG0370L1086",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "SPAC Altimeter Growth Corp",
+            "exchange": "Issuance",
+            "issueSize": "0",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "463e81cf-188d-47c2-9083-f4bc27d06886",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "bc8f9408-f053-4192-9fb7-42ee12a2c48d",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

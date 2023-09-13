@@ -1,0 +1,86 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG00DYPZ4T0",
+            "ticker": "BHF",
+            "classCode": "SPBXM",
+            "isin": "US10922N1037",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Brighthouse Financial",
+            "exchange": "SPB_MORNING",
+            "issueSize": "96776670",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "cd9afa92-c198-46dd-8105-ab1c439a4807",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "f9ee134f-2cc0-4090-8e53-abcc8d4c835c",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:29:00Z",
+            "first1dayCandleDate": "2017-07-17T00:00:00Z"
+        },
+        {
+            "figi": "US10922N1037",
+            "ticker": "US10922N1037",
+            "classCode": "SPBXM_OTC",
+            "isin": "US10922N1037",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Brighthouse Financial",
+            "exchange": "Issuance",
+            "issueSize": "96776670",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "financial",
+            "issueSizePlan": "1000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "c34e387b-27ea-47fb-bfe4-415a33989b8b",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "acedbe10-daf3-4ab3-bf27-97e799e427b8",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "instruments": [
+        {
+            "figi": "TCS825081040",
+            "ticker": "TXN-RM",
+            "classCode": "FQBR",
+            "isin": "US8825081040",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "Texas Instruments",
+            "exchange": "moex_close",
+            "ipoDate": "1970-02-02T00:00:00Z",
+            "issueSize": "923209971",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "1",
+                "nano": 0
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "e06ac5b3-7c96-4fe4-87d8-4e5a5d1d1ea6",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "53807b32-7408-4d82-b571-38c482855d4a",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2021-03-01T07:05:00Z",
+            "first1dayCandleDate": "2021-03-01T07:00:00Z"
+        },
+        {
+            "figi": "US8825081040",
+            "ticker": "US8825081040",
+            "classCode": "SPBXM_OTC",
+            "isin": "US8825081040",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Texas Instruments",
+            "exchange": "Issuance",
+            "ipoDate": "1970-02-02T00:00:00Z",
+            "issueSize": "923209971",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "31be84fb-ccd5-44e4-83f4-f8b5e73c0079",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "7abd9c38-575a-4e4b-87d8-70686b7e3d55",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "BBG000BVV7G1",
+            "ticker": "TXN",
+            "classCode": "SPBXM",
+            "isin": "US8825081040",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Texas Instruments",
+            "exchange": "spb_til",
+            "ipoDate": "1970-02-02T00:00:00Z",
+            "issueSize": "923209971",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "usd",
+                "units": "1",
+                "nano": 0
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "b50a255d-ba51-4784-a11c-271384eecbc8",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "06997c40-9fba-4a73-aa2d-df1ab7303a42",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T12:19:00Z",
+            "first1dayCandleDate": "1988-09-12T00:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "instruments": [
+        {
+            "figi": "US79466L3024",
+            "ticker": "US79466L3024",
+            "classCode": "SPBXM_OTC",
+            "isin": "US79466L3024",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Salesforce",
+            "exchange": "Issuance",
+            "ipoDate": "2004-06-23T00:00:00Z",
+            "issueSize": "979000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1600000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "2a4c71d9-54a8-4365-97e7-cd634e858a13",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "8822d1f3-e810-4745-919e-78a4c41e02f4",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": true,
+            "liquidityFlag": false
+        },
+        {
+            "figi": "TCS9466L3024",
+            "ticker": "CRM-RM",
+            "classCode": "FQBR",
+            "isin": "US79466L3024",
+            "lot": 1,
+            "currency": "rub",
+            "shortEnabledFlag": false,
+            "name": "Salesforce",
+            "exchange": "moex_close",
+            "ipoDate": "2004-06-23T00:00:00Z",
+            "issueSize": "979000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1600000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "1",
+                "nano": 0
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "f1d5dd35-decb-4bc0-89c6-6dda2641877a",
+            "realExchange": "REAL_EXCHANGE_MOEX",
+            "positionUid": "a750d35f-d48d-4858-a29b-b00f532c1f82",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2020-12-01T07:05:00Z",
+            "first1dayCandleDate": "2020-12-01T07:00:00Z"
+        },
+        {
+            "figi": "BBG000BN2DC2",
+            "ticker": "CRM",
+            "classCode": "SPBXM",
+            "isin": "US79466L3024",
+            "lot": 1,
+            "currency": "usd",
+            "klong": {
+                "units": "2",
+                "nano": 0
+            },
+            "kshort": {
+                "units": "2",
+                "nano": 0
+            },
+            "dlong": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshort": {
+                "units": "1",
+                "nano": 0
+            },
+            "dlongMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "dshortMin": {
+                "units": "1",
+                "nano": 0
+            },
+            "shortEnabledFlag": false,
+            "name": "Salesforce",
+            "exchange": "spb_til",
+            "ipoDate": "2004-06-23T00:00:00Z",
+            "issueSize": "979000000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1600000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "5eb9aa7d-4613-4cc2-9ead-828daf639f82",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "a306702e-537a-491f-9902-1f92241ac8c7",
+            "forIisFlag": true,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2018-01-23T14:30:00Z",
+            "first1dayCandleDate": "2004-06-23T00:00:00Z"
+        }
+    ]
+}

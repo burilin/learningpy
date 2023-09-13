@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000JX4KH9",
+            "ticker": "PHIA",
+            "classCode": "PHIA",
+            "isin": "NL0000009538",
+            "lot": 1,
+            "currency": "eur",
+            "shortEnabledFlag": false,
+            "name": "Koninklijke Philips NV",
+            "exchange": "euronextamsterdam",
+            "issueSize": "926191723",
+            "countryOfRisk": "NL",
+            "countryOfRiskName": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u043e\u0432",
+            "sector": "health_care",
+            "issueSizePlan": "0",
+            "nominal": {
+                "currency": "eur",
+                "units": "0",
+                "nano": 200000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "fd7ac583-3049-42a9-87cf-3cbdbf18f4b6",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "193eba4a-6b23-45b4-b57f-6c43784e15b1",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

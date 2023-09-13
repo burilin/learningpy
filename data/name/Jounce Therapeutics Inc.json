@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG0044BWGZ3",
+            "ticker": "JNCE",
+            "classCode": "JNCE",
+            "isin": "US4811161011",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Jounce Therapeutics Inc",
+            "exchange": "nasdaq",
+            "issueSize": "39851475",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "160000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "8e960d36-da07-4b76-b25a-523ca0d8a05e",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "7e757b83-bf9c-484d-b41b-eecda0644173",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

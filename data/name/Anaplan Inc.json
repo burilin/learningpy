@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG002DZS299",
+            "ticker": "PLAN",
+            "classCode": "SPBXM",
+            "isin": "US03272L1089",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Anaplan Inc",
+            "exchange": "SPB",
+            "issueSize": "126400000",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "it",
+            "issueSizePlan": "1750000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 100000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": false,
+            "uid": "29cd2be4-c46f-4232-b9eb-5c1fc461436f",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "4659d7b1-8457-4597-8d73-3f666fbfd460",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": false,
+            "first1minCandleDate": "2019-08-05T12:32:00Z",
+            "first1dayCandleDate": "2019-08-05T07:00:00Z"
+        }
+    ]
+}

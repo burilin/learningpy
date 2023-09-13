@@ -1,0 +1,46 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG001DMCGS5",
+            "ticker": "1378",
+            "classCode": "SPBHKEX",
+            "isin": "KYG211501005",
+            "lot": 100,
+            "currency": "hkd",
+            "shortEnabledFlag": false,
+            "name": "China Hongqiao Group",
+            "exchange": "SPB_HK",
+            "issueSize": "8878352349",
+            "countryOfRisk": "",
+            "countryOfRiskName": "",
+            "sector": "materials",
+            "issueSizePlan": "10000000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NORMAL_TRADING",
+            "otcFlag": false,
+            "buyAvailableFlag": true,
+            "sellAvailableFlag": true,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "minPriceIncrement": {
+                "units": "0",
+                "nano": 10000000
+            },
+            "apiTradeAvailableFlag": true,
+            "uid": "ccadf1c8-d790-4700-89c3-5ac45f2cd380",
+            "realExchange": "REAL_EXCHANGE_RTS",
+            "positionUid": "5bebcf6b-49e7-4a77-82bb-0297a50ba4d7",
+            "forIisFlag": true,
+            "forQualInvestorFlag": false,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true,
+            "first1minCandleDate": "2022-12-05T05:00:00Z",
+            "first1dayCandleDate": "2022-12-05T07:00:00Z"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG000C3MXG5",
+            "ticker": "DOX",
+            "classCode": "DOX",
+            "isin": "GB0022569080",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Amdocs",
+            "exchange": "Issuance",
+            "issueSize": "134737409",
+            "countryOfRisk": "",
+            "countryOfRiskName": "",
+            "sector": "it",
+            "issueSizePlan": "700000000",
+            "nominal": {
+                "currency": "gbp",
+                "units": "0",
+                "nano": 10000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": true,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "0dde9c89-2b8c-4e84-bbe4-b11e69e73b5a",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "e090f9be-d2d0-471b-bf92-e7b4789c7537",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}

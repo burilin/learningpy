@@ -1,0 +1,40 @@
+{
+    "instruments": [
+        {
+            "figi": "BBG0026ZJTQ9",
+            "ticker": "OM",
+            "classCode": "OM",
+            "isin": "US6901451079",
+            "lot": 1,
+            "currency": "usd",
+            "shortEnabledFlag": false,
+            "name": "Outset Medical, Inc.",
+            "exchange": "nasdaq",
+            "issueSize": "922078",
+            "countryOfRisk": "US",
+            "countryOfRiskName": "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+            "sector": "health_care",
+            "issueSizePlan": "240000000",
+            "nominal": {
+                "currency": "usd",
+                "units": "0",
+                "nano": 1000000
+            },
+            "tradingStatus": "SECURITY_TRADING_STATUS_NOT_AVAILABLE_FOR_TRADING",
+            "otcFlag": true,
+            "buyAvailableFlag": false,
+            "sellAvailableFlag": false,
+            "divYieldFlag": false,
+            "shareType": "SHARE_TYPE_COMMON",
+            "apiTradeAvailableFlag": false,
+            "uid": "40002fe6-1ccb-4a8c-834e-c79da8b955d1",
+            "realExchange": "REAL_EXCHANGE_OTC",
+            "positionUid": "59e32fb4-34b9-4f0d-95ec-b000095cccec",
+            "forIisFlag": false,
+            "forQualInvestorFlag": true,
+            "weekendFlag": false,
+            "blockedTcaFlag": false,
+            "liquidityFlag": true
+        }
+    ]
+}
