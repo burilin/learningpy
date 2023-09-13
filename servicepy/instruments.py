@@ -1,15 +1,11 @@
 import json
 import os
 import collections
-# создать экземпляр класса, чтобы проверить creating json, изменив структуру создания json+
-# переименовать класс Stocks в Instruments+ 
-# переименовать writer в reader +
-# file_path_out/ file_path_in-
-# передать как параметры поиска search_key, value+
+
 
 class Instruments:
 
-    def __init__(self, file_path = "../data/data_stocks.json" ):
+    def __init__(self, file_path = "data/data_stocks.json" ):
         self.file_path = file_path
         self.stocks = self.reader()
         self.len_stocks = len(self.stocks)
@@ -51,14 +47,14 @@ class Instruments:
         return self.sort_list_dict(left, search_key) + center + self.sort_list_dict(right, search_key)
     
 
-    def sort_list_dict_public(self, search_key):
+    def sort_list_dict_private(self, search_key:str):
         copy_stocks = self.stocks
         result = self.sort_list_dict(copy_stocks, search_key)
         return result
 
 
     def select_stocks2(self, search_key:str, search_value:str) -> list: # binary search by the key and its value
-        list_dict = self.sort_list_dict_public(search_key)
+        list_dict = self.sort_list_dict_private(search_key)
 
 
 
@@ -75,8 +71,8 @@ class Instruments:
                 left = mid + 1
         return "not found"
     
-    def writer(self, search_par:str, name_key:str, data:list):
-        with open(f'../data/{str(search_par)}/'+str(name_key)+'.json','w',encoding='utf-8') as file:
+    def writer(self, path:str, data:list): # готовый путь, список data
+        with open(path,'w',encoding='utf-8') as file:
             main_data ={'instruments': data}
             json.dump(main_data, file, indent= 4)
     
@@ -87,15 +83,15 @@ class Instruments:
         try:
             for i in range(self.len_stocks):
                 params.add(self.stocks[i][search_par])
-            os.makedirs(f'../data/{str(search_par)}')
+            os.makedirs(f'./data/{str(search_par)}')
             for i in params:
             
                 data =[]
                 for j in range(self.len_stocks):
                     if i == self.stocks[j][search_par]:
                         data.append(self.stocks[j])
-                    
-                self.writer(search_par=search_par,name_key=i,data=data)
+                path = f'./data/{str(search_par)}/{str(i)}.json'
+                self.writer(path=path,data=data)
             return "success"
         except Exception as ex:
             return f"it's impossible to write and sort by this tag\n Exceprion : {ex}"
