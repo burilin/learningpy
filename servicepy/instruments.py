@@ -9,7 +9,7 @@ import collections
 
 class Instruments:
 
-    def __init__(self, file_path = "../data/data_stocks.json" ):
+    def __init__(self, file_path = "./data/data_stocks.json" ):
         self.file_path = file_path
         self.stocks = self.reader()
         self.len_stocks = len(self.stocks)
@@ -76,7 +76,7 @@ class Instruments:
         return "not found"
     
     def writer(self, search_par:str, name_key:str, data:list):
-        with open(f'../data/{str(search_par)}/'+str(name_key)+'.json','w',encoding='utf-8') as file:
+        with open(f'./data/{str(search_par)}/'+str(name_key)+'.json','w',encoding='utf-8') as file:
             main_data ={'instruments': data}
             json.dump(main_data, file, indent= 4)
     
@@ -87,7 +87,7 @@ class Instruments:
         try:
             for i in range(self.len_stocks):
                 params.add(self.stocks[i][search_par])
-            os.makedirs(f'../data/{str(search_par)}')
+            os.makedirs(f'./data/{str(search_par)}')
             for i in params:
             
                 data =[]
