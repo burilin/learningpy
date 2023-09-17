@@ -5,7 +5,7 @@ import collections
 
 class Instruments:
 
-    def __init__(self, file_path = "data/data_stocks.json" ):
+    def __init__(self, file_path = "../data/data_stocks.json" ):
         self.file_path = file_path
         self.stocks = self.reader()
         self.len_stocks = len(self.stocks)
@@ -83,53 +83,19 @@ class Instruments:
         try:
             for i in range(self.len_stocks):
                 params.add(self.stocks[i][search_par])
-            os.makedirs(f'./data/{str(search_par)}')
+            os.makedirs(f'../data/{str(search_par)}')
             for i in params:
             
                 data =[]
                 for j in range(self.len_stocks):
                     if i == self.stocks[j][search_par]:
                         data.append(self.stocks[j])
-                path = f'./data/{str(search_par)}/{str(i)}.json'
+                path = f'../data/{str(search_par)}/{str(i)}.json'
                 self.writer(path=path,data=data)
             return "success"
         except Exception as ex:
             return f"it's impossible to write and sort by this tag\n Exceprion : {ex}"
         
         
-    def country_popularity_rating(self) -> collections:  # rate stocks by popularity
-        country_list = [self.stocks[i]['countryOfRiskName'] for i in range(self.len_stocks)]
-        result = collections.Counter(country_list)
-        return result
-    
 
-    def companies_by_date(self, year:str) -> list: # searching companies by year
-        companies_list = []
-
-
-        for i in range(self.len_stocks):
-            keys = self.stocks[i].keys()
-            if 'first1dayCandleDate' in keys and year in self.stocks[i]['first1dayCandleDate']:
-                companies_list.append(self.stocks[i])
-        if companies_list:
-            return companies_list
-        return "not found"
-    
-    def the_oldest_company(self) -> str: #searching the oldest company
-        dates_list = []
-        the_company = ''
-
-        for i in range(self.len_stocks):
-            keys = self.stocks[i].keys()
-            if 'first1dayCandleDate' in keys:
-                dates_list.append(self.stocks[i]['first1dayCandleDate'][:4])
-        first_date = min(list(map(int,dates_list)))
-        
-
-        for i in range(self.len_stocks):
-            keys = self.stocks[i].keys()
-            if 'first1dayCandleDate' in keys:
-                if str(first_date) in self.stocks[i]['first1dayCandleDate'][:4]:
-                    the_company=self.stocks[i]
-        return the_company
 
