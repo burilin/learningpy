@@ -1,7 +1,5 @@
 import json
-from instruments import Instruments
-
-class Stock(Instruments):
+class Stock():
 
     def __init__(self,file_path="../data/BBG004730N88_candles_day_stock.json"):
         self.file_path = file_path

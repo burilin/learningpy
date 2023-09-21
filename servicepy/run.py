@@ -32,11 +32,11 @@ def main():
     tasks = {
         1: {"name_task_rus" : "Поиск акций по значению указанного ключа(частичное вхождение)", "sys_name_function" : instrument.select_stocks, "funcs_params":["search_key", "search_value"]},
         2: {"name_task_rus" : "Создание папки с файлами по ключу", "sys_name_function" : instrument.json_creater,  "funcs_params":["search_key"]},
-        3: {"name_task_rus" : "Рейтинг по частоте появления акций различных стран" ,"sys_name_function" : Stocks.country_popularity_rating,  "funcs_params":[None]},
+        3: {"name_task_rus" : "Рейтинг по частоте появления акций различных стран" ,"sys_name_function" : Stocks.country_popularity_rating,  "funcs_params":[]},
         4: {"name_task_rus" : "Поиск компаний по заданному году пояления акций на бирже" ,"sys_name_function" : Stocks.companies_by_date,  "funcs_params":["year"]},
-        5: {"name_task_rus" : "Поиск компании, чьи акции появились появились раньше других" ,"sys_name_function" : Stocks.the_oldest_company,"funcs_params":[None]},
+        5: {"name_task_rus" : "Поиск компании, чьи акции появились появились раньше других" ,"sys_name_function" : Stocks.the_oldest_company,"funcs_params":[]},
         6: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
-        7: {"name_task_rus" : "Поиск точек по закрытию (цена;дата)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[None]}
+        7: {"name_task_rus" : "Получение точек по закрытию (цена;дата)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[]}
     }
     
 
