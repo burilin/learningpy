@@ -1,7 +1,5 @@
 from instruments import Instruments
 import collections
-import time
-
 
 class Stocks(Instruments):
 
