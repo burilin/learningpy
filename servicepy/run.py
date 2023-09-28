@@ -1,6 +1,7 @@
 import instruments
 import stocks
 import stock
+import tinkoff_data
 ### Tasks ###
 # Cоздать столько файлов в количестве отраслей. каждая отрасль в отдельный файл json+
 # Cделать commit опубликовать свои изменения на  GitHub+-
@@ -24,7 +25,7 @@ import stock
 instrument = instruments.Instruments()
 Stocks = stocks.Stocks()
 Stock = stock.Stock()
-
+tinkoff = tinkoff_data.TinkoffData()
 
 
 def main():
@@ -36,7 +37,8 @@ def main():
         4: {"name_task_rus" : "Поиск компаний по заданному году пояления акций на бирже" ,"sys_name_function" : Stocks.companies_by_date,  "funcs_params":["year"]},
         5: {"name_task_rus" : "Поиск компании, чьи акции появились появились раньше других" ,"sys_name_function" : Stocks.the_oldest_company,"funcs_params":[]},
         6: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
-        7: {"name_task_rus" : "Получение точек по закрытию (цена;дата)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[]}
+        7: {"name_task_rus" : "Получение точек по закрытию (цена;дата)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[]},
+        8: {"name_task_rus" : "Создание папки с файлами, где каждый файл - json-candle файл )" ,"sys_name_function" : tinkoff.loader, "funcs_params":[]}
     }
     
 
