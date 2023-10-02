@@ -1,6 +1,5 @@
 from instruments import Instruments
 import collections
-
 class Stocks(Instruments):
 
     def country_popularity_rating(self) -> collections:  # rate stocks by popularity

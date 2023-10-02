@@ -1,7 +1,8 @@
 import json
+#отсортировать по дате
 class Stock():
 
-    def __init__(self,file_path="../data/BBG004730N88_candles_day_stock.json"):
+    def __init__(self,file_path="../data/BBG004730N88_candles_day_stock.json"): # вынести в параметры методов
         self.file_path = file_path
         self.stock = self.reader()
 
@@ -18,7 +19,7 @@ class Stock():
         return float(self.stock[iteration]["close"]['units']) + float(self.stock[iteration]["close"]['nano'])/1_000_000_000
         
     def get_points_closing_graphic(self) -> list:
-        return[(self.count_price_close(i),self.stock[i]["time"]) for i in range(len(self.stock)-1)]
+        return sorted([(self.stock[i]["time"],self.count_price_close(i)) for i in range(len(self.stock)-1)])
         
 
 
