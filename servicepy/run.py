@@ -37,17 +37,16 @@ def main():
         4: {"name_task_rus" : "Поиск компаний по заданному году пояления акций на бирже" ,"sys_name_function" : Stocks.companies_by_date,  "funcs_params":["year"]},
         5: {"name_task_rus" : "Поиск компании, чьи акции появились появились раньше других" ,"sys_name_function" : Stocks.the_oldest_company,"funcs_params":[]},
         6: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
-        7: {"name_task_rus" : "Получение точек по закрытию (цена;дата)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[]},
-        8: {"name_task_rus" : "Создание папки с файлами, где каждый файл - json-candle файл )" ,"sys_name_function" : tinkoff.loader, "funcs_params":[]}
+        7: {"name_task_rus" : "Получение точек по закрытию (дата;цена)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[]},
+        8: {"name_task_rus" : "Создание папки с файлами, где каждый файл - json-candle файл )" ,"sys_name_function" : tinkoff.loader, "funcs_params":["figi", "date_from", "date_to"]}
     }
     
 
     print("Привет, выбери функцию для работы с json-обьектом (введи номер из списка ниже)")
     [print(str(i) +' ------- ' + tasks[i]['name_task_rus']) for i in range(1,len(tasks)+1)]
-
-    task = int(input())  #сделать красивый и понятный input
+    
+    task = int(input())
     params = [input(f"Введи значение параметра {i} ") for i in tasks[task]["funcs_params"] if i]
-
     return tasks[task]["sys_name_function"](*params)    
 
 
