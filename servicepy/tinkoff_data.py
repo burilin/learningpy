@@ -2,6 +2,7 @@ import json
 import requests
 import os
 import datetime
+from validator import Validator
 # жетско зашить токен без передачи self.token_secret либо вынести в конфиг файл+
 # убрать stocks_path, добавить массив figi, период (from/ to) в иннит+
 # создать loader, путь сохранения+-
@@ -10,12 +11,16 @@ import datetime
 # ввод данных от пользователя+
 # если дата больше двух лет, то разбиваем на несколько запросов+
 # stock.py посмотреть задания+
-# удалить костыли мерки года
-#
-#
-#
+# удалить костыли мерки года+
+
+# упростить дату+
+# смотреть есть ли фиги в файле (написать класс валидотор для проверок или в ран пае)+
+# создать класс, который будет создавать средние значение массива точек, для определения пробоя снизу и сверху
+
 ONE_YEAR = datetime.timedelta(365)
-class TinkoffData:
+
+date_format = "%Y-%m-%dT%H:%M:%S.%fZ"
+class TinkoffData():
 
     def __init__(self,
                 url_post = "https://sandbox-invest-public-api.tinkoff.ru/rest/tinkoff.public.invest.api.contract.v1.MarketDataService/GetCandles"):
@@ -48,7 +53,7 @@ class TinkoffData:
         except ValueError:
             raise ValueError 
 
-    def separate_date_private(self,figi:str, date_from:str, date_to:str):
+    def separate_date_private(self,figi:str, date_from:str, date_to:str) ->dict:
         dates = []
 
         parsed_date_from = datetime.datetime.strptime(date_from, "%Y-%m-%dT%H:%M:%S.%fZ")
@@ -66,33 +71,40 @@ class TinkoffData:
         return data
 
 
-    def loader(self, figi:str = "BBG004730N88", date_from:str = "2022-06-19T14:41:49.263Z", date_to:str = "2022-09-19T14:41:49.263Z") -> bool:
+    def loader(self, figi:str = "BBG004730N88", date_from:str = "2022-06-19", date_to:str = "2022-09-19") -> bool:
         try:
-            if self.check_date_private(date_from,date_to):
-                try:
-                    
-                    if not os.path.isdir('../data/candles'):
-                        os.makedirs('../data/candles')
-                    
-                    with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
-                        json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
-                except KeyError():
-                    return False
+            date_from += "T00:00:00.263Z"
+            date_to += "T00:00:00.263Z"
+            val = Validator()
+            if val.check_figi(figi):
+                if self.check_date_private(date_from,date_to):
+                    try:
+                        
+                        if not os.path.isdir('../data/candles'):
+                            os.makedirs('../data/candles')
+                        
+                        with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
+                            json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
+                    except KeyError():
+                        return False
 
-                
-                return True
-            else: 
-                data = {"candles":self.separate_date_private(figi, date_from,date_to)}
-                try:
                     
-                    if not os.path.isdir('../data/candles'):
-                        os.makedirs('../data/candles')
-                    
-                    with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
-                        json.dump(data,file,indent=4)
                     return True
-                except KeyError():
-                    return False
+                else: 
+                    data = {"candles":self.separate_date_private(figi, date_from,date_to)}
+                    try:
+                        
+                        if not os.path.isdir('../data/candles'):
+                            os.makedirs('../data/candles')
+                        
+                        with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
+                            json.dump(data,file,indent=4)
+                        return True
+                    except KeyError():
+                        return False
+                    
+            else:
+                return "Такого figi нет"
         except ValueError:
             return False
    
@@ -103,4 +115,4 @@ class TinkoffData:
 if __name__ == "__main__":
     tin = TinkoffData()
     tin_func = tin.loader
-    print(tin.separate_date_private("BBG004730N88","2020-06-19T14:41:49.263Z","2022-09-19T14:41:49.263Z"))
+    print(tin.separate_date_private("BBG004730N88","2020-06-19","2022-09-19"))
