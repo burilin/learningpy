@@ -15,7 +15,7 @@ from validator import Validator
 
 # упростить дату+
 # смотреть есть ли фиги в файле (написать класс валидотор для проверок или в ран пае)+
-# создать класс, который будет создавать средние значение массива точек, для определения пробоя снизу и сверху
+# создать класс, который будет создавать средние значение массива точек, для определения пробоя снизу и сверху+
 
 ONE_YEAR = datetime.timedelta(365)
 
@@ -31,7 +31,7 @@ class TinkoffData():
                                 "Content-Type": "application/json"}
 
         
-    def create_data_json_private(self,figi:str, date_from:str, date_to:str)->dict:     #setting data dictionary, depending on figi value
+    def create_data_json_private(self,figi:str, date_from:str, date_to:str)->list:     #setting data dictionary, depending on figi value
         return {
         "figi": figi, "from": date_from,
         "to": date_to, "interval": "CANDLE_INTERVAL_DAY"}
@@ -82,10 +82,10 @@ class TinkoffData():
                         
                         if not os.path.isdir('../data/candles'):
                             os.makedirs('../data/candles')
-                        
-                        with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
-                            json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
-                    except KeyError():
+                        if not f'../data/candles/{figi}.json':
+                            with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
+                                json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
+                    except KeyError:
                         return False
 
                     
@@ -100,7 +100,7 @@ class TinkoffData():
                         with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
                             json.dump(data,file,indent=4)
                         return True
-                    except KeyError():
+                    except KeyError:
                         return False
                     
             else:

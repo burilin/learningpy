@@ -26,3 +26,5 @@ import datetime
 # d1=datetime.datetime.strftime(str(d), "%Y-%m-%dT%H:%M:%S.%fZ")
 # print(d1)
 
+print(str(datetime.datetime.now())[:10])
+
