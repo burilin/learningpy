@@ -13,7 +13,6 @@ class Instruments:
     
 
     def reader(self) -> list:   # opening file
-
         with open(self.file_path,"r",encoding="utf-8") as file:
             stocks = json.load(file)
         return stocks['instruments'] 

@@ -1,5 +1,6 @@
 import stock
-
+# заменить бин поиск на for из-за несправедливости
+# класс сигнал
 class Graphic(stock.Stock):
     def __init__(self):
         pass
@@ -9,34 +10,26 @@ class Graphic(stock.Stock):
     
 
     def get_middle_price(self,figi:str) -> float:
-        points = self.get_points_closing_graphic(figi)
-        return sum([i[1] for i in points])/len(points)
+        self.points = self.get_points_closing_graphic(figi)
+        return sum([i[1] for i in self.points])/len(self.points)
         
-    def get_intersection(self, figi:str):
+    def get_intersection(self, figi:str) -> list:
+        results = []
         middle = self.get_middle_price(figi)
-        price_points = self.get_points_closing_graphic_reversed(figi)
+        for i in range(1,len(self.points)):
+            if self.points[i-1][1] < middle < self.points[i][1]:
+                results.append({"пробой в":self.points[i], "рекомендация": "продажа акции(пробой снизу)"})
 
+            if self.points[i-1][1] > middle > self.points[i][1]:
+                results.append({"пробой в":self.points[i], "рекомендация": "покупка акции(пробой сверху)"})
+        return results
 
-        left, right = 0, len(price_points) - 1
-        while left<=right:
-            mid = (left+right)//2
-            if price_points[mid] < middle < price_points[mid+1]:
-                return "пробой снизу"
-            elif price_points[mid] > middle > price_points[mid+1]:
-                return "пробой сверху"
-            elif price_points[mid+1] < middle:
-                left = mid+1
-            elif price_points[mid+1] > middle:
-                right = mid-1
-
-        return False
-
-
-
-    
 
 if __name__ == "__main__":
     ob = Graphic()
-    print(ob.get_intersection("BBG004730N88"))
+    print(ob.get_middle_price("TCS109805522"))#4605.257142857143
+    print(ob.get_intersection("TCS109805522"))
+    print(ob.get_middle_price("TCS109029540"))#265
+    print(ob.get_intersection("TCS109029540"))
     
     

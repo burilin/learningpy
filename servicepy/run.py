@@ -2,6 +2,7 @@ import instruments
 import stocks
 import stock
 import tinkoff_data
+import signals
 ### Tasks ###
 # Cоздать столько файлов в количестве отраслей. каждая отрасль в отдельный файл json+
 # Cделать commit опубликовать свои изменения на  GitHub+-
@@ -26,7 +27,7 @@ instrument = instruments.Instruments()
 Stocks = stocks.Stocks()
 Stock = stock.Stock()
 tinkoff = tinkoff_data.TinkoffData()
-
+signal = signals.Signals()
 
 def main():
     
@@ -38,7 +39,8 @@ def main():
         5: {"name_task_rus" : "Поиск компании, чьи акции появились появились раньше других" ,"sys_name_function" : Stocks.the_oldest_company,"funcs_params":[]},
         6: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
         7: {"name_task_rus" : "Получение точек по закрытию (дата;цена)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":["figi"]},
-        8: {"name_task_rus" : "Создание папки с файлами, где каждый файл - json-candle файл )" ,"sys_name_function" : tinkoff.loader, "funcs_params":["figi", "date_from", "date_to"]}
+        8: {"name_task_rus" : "Создание папки с файлами, где каждый файл - json-candle файл " ,"sys_name_function" : tinkoff.loader, "funcs_params":["figi", "date_from", "date_to"]},
+        9: {"name_task_rus" : "Отправляет сигнал о покупке/продаже той или иной акции" ,"sys_name_function" : signal.signal, "funcs_params":["figi"]}
     }
     
 
