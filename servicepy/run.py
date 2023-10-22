@@ -70,7 +70,7 @@ def graf_stock():
     res = Stock.get_points_closing_graphic('TCS109029540')
     return f'<h1> {res[0]} </h1>'
 
-@app.route("/result", methods = ["POST", "GET"])
+@app.route("/result", methods = ["POST", "GET"])    #здесь затык
 def result():
     pass
     #return render_template('result.html', res=res)
