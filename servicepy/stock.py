@@ -9,10 +9,10 @@ class Stock(TinkoffData):
         return "class Stock"
     
     def reader(self, figi:str) -> list:   # opening file
-        
+       
         with open(f"../data/candles/{figi}.json","r",encoding="utf-8") as file:
             stock = json.load(file)
-        return stock['candles']
+        return stock["candles"]
         
     def count_price_close(self,iteration:int, figi:str) -> float:
         stock = self.reader(figi)
@@ -25,7 +25,7 @@ class Stock(TinkoffData):
 
 if __name__ == "__main__":
     ob = Stock()
-    print(ob.reader("TCS109805522"))
+    print(ob.reader("TCS007661625"))
     print(ob.get_points_closing_graphic("TCS109805522"))
         
 

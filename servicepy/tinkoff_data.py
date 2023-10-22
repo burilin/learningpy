@@ -39,7 +39,7 @@ class TinkoffData():
     def get_data_json(self, data_json: dict)->json:     #requesting to url, getting json using api 
         response = requests.post(self.url_post, headers=self.headers, data=json.dumps(data_json)).json()
         if response['candles']:
-            return response['candles']
+            return response
         raise KeyError
 
     def check_date_private(self, date_from:str, date_to:str) -> bool:
@@ -82,7 +82,7 @@ class TinkoffData():
                         
                         if not os.path.isdir('../data/candles'):
                             os.makedirs('../data/candles')
-                        if not f'../data/candles/{figi}.json':
+                        if not os.path.exists(f'../data/candles/{figi}.json'):
                             with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
                                 json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
                     except KeyError:
@@ -115,4 +115,5 @@ class TinkoffData():
 if __name__ == "__main__":
     tin = TinkoffData()
     tin_func = tin.loader
-    print(tin.separate_date_private("BBG004730N88","2020-06-19","2022-09-19"))
+    #print(tin.separate_date_private("BBG004730N88","2020-06-19","2022-09-19"))
+    print(tin.loader("BBG000QJW156"))

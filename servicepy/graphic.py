@@ -18,18 +18,19 @@ class Graphic(stock.Stock):
         middle = self.get_middle_price(figi)
         for i in range(1,len(self.points)):
             if self.points[i-1][1] < middle < self.points[i][1]:
-                results.append({"пробой в":self.points[i], "рекомендация": "продажа акции(пробой снизу)"})
+                results.append({"пробой в":self.points[i], "рекомендация": "покупка акции(пробой снизу)"})
 
             if self.points[i-1][1] > middle > self.points[i][1]:
-                results.append({"пробой в":self.points[i], "рекомендация": "покупка акции(пробой сверху)"})
+                results.append({"пробой в":self.points[i], "рекомендация": "продажа акции(пробой сверху)"})
         return results
 
 
 if __name__ == "__main__":
     ob = Graphic()
-    print(ob.get_middle_price("TCS109805522"))#4605.257142857143
-    print(ob.get_intersection("TCS109805522"))
+    print(ob.get_middle_price("BBG000QJW156"))#4605.257142857143
+    print(ob.get_intersection("BBG000QJW156"))
     print(ob.get_middle_price("TCS109029540"))#265
     print(ob.get_intersection("TCS109029540"))
+    
     
     

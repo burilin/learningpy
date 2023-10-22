@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Рекомендательная система для алгоритмической торговли акциями 
+{% endblock %}
+
+{% block header %}
+    <h1>Рекомендательная система для алгоритмической торговли акциями</h1>
+{% endblock%}
+
+{%block body%}
+<ol>
+    {% for i in ol_tasks%}
+    <li>{{i}}</li>
+    {%endfor%}
+</ol>
+
+<div class='form_wrapper'>
+    <div class='form_container'>
+        <div class='title_container'>
+            <h2>Выбор задачи </h2>
+        </div>
+
+    <div>
+<form action="{{url_for('get_args')}}" method="POST">
+    <div class='input_field'> <span><i class='fa fa-envelope'></i></span>
+        <span>Задача</span><br>
+        <input type='text' name="number" placeholder="Введите номер задачи" required>
+    </div>
+    
+    
+</div>
+</div>
+
+    <input class='button' type='submit' value='Отправить'> 
+
+</form>
+{%endblock%}
+    
