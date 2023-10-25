@@ -9,8 +9,8 @@
         </div>
 
     <div>
-<form action="{{url_for('result')}}" method="POST">
-    {% if  params %}
+<form action="{{url_for('result', list = params, task = task)}}" method="POST">
+    {% if params %}
         {% for param in params%}
         <div class='input_field'> <span><i class='fa fa-envelope'></i></span>
             <span>{{param}}:</span><br>
