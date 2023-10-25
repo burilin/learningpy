@@ -13,18 +13,45 @@ import datetime
 #   "to": "2022-09-19T14:41:49.263000Z",
 #   "interval": "CANDLE_INTERVAL_DAY"
 
+
+
+
+
+
+# tasks = {
+    
+#     1: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
+#     2: {"name_task_rus" : "Получение точек по закрытию (дата;цена)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":["figi"]},
+#     3: {"name_task_rus" : "Отправляет сигнал о покупке/продаже той или иной акции" ,"sys_name_function" : signal.signal, "funcs_params":["figi"]}
 # }
 
-# resp = requests.post(url_post, headers=headers, data=json.dumps(data_json))
-# fromm = datetime.datetime.strptime("2021-09-19T14:41:49.263Z", "%Y-%m-%dT%H:%M:%S.%fZ")
-# to = datetime.datetime.strptime("2024-06-19T14:41:49.263Z", "%Y-%m-%dT%H:%M:%S.%fZ")
-# print((to - fromm)//3)
+# @app.route("/", methods = ["POST", "GET"])
+# def start():
+    
+#     ol_tasks = [str(i) +' ------- ' + tasks[i]['name_task_rus'] for i in range(1,len(tasks)+1)]  
+#     return render_template("index.html", ol_tasks=ol_tasks)  
 
 
-# d = datetime.datetime.strptime("2021-09-19T14:41:49.263Z", "%Y-%m-%dT%H:%M:%S.%fZ")
-# print(str(d)[:-3])
-# d1=datetime.datetime.strftime(str(d), "%Y-%m-%dT%H:%M:%S.%fZ")
-# print(d1)
+# @app.route("/get_args", methods = ["POST", "GET"])
+# def get_args():
+#     task = int(request.form["number"])
+#     params = [i for i in tasks[task]["funcs_params"] if i]
+#     return render_template("get_args.html", params=params)
 
-print(str(datetime.datetime.now())[:10])
+# @app.route("/graf")
+# def graf_stock():
+#     res = Stock.get_points_closing_graphic('TCS109029540')
+#     return f'<h1> {res[0]} </h1>'
 
+# @app.route("/result/<list>", methods = ["POST", "GET"])    #здесь затык
+# def result(list):
+#     print(list)
+#     return render_template('result.html')
+
+# res = str(['search_key', 'search_value', 'figi']+[1])
+# for i in ["'" ,"[" ,"]" ," "]:
+#     res = res.replace(i,"")
+# res = res.split(",")
+# print(res)
+
+print(f"{datetime.datetime.now() - datetime.timedelta(days=2)}"[:10])

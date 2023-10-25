@@ -39,7 +39,7 @@ class TinkoffData():
     def get_data_json(self, data_json: dict)->json:     #requesting to url, getting json using api 
         response = requests.post(self.url_post, headers=self.headers, data=json.dumps(data_json)).json()
         if response['candles']:
-            return response
+            return response['candles']
         raise KeyError
 
     def check_date_private(self, date_from:str, date_to:str) -> bool:
@@ -71,20 +71,20 @@ class TinkoffData():
         return data
 
 
-    def loader(self, figi:str = "BBG004730N88", date_from:str = "2022-06-19", date_to:str = "2022-09-19") -> bool:
+    def loader(self, figi:str = "BBG004730N88", date_from:str = "2022-06-19", date_to:str = f"{datetime.datetime.now()- datetime.timedelta(days=2)}"[:10]) -> bool:
         try:
             date_from += "T00:00:00.263Z"
             date_to += "T00:00:00.263Z"
             val = Validator()
-            if val.check_figi(figi):
+            if val.check_figi(figi) and val.check_data_from(date_from,figi):
                 if self.check_date_private(date_from,date_to):
                     try:
                         
                         if not os.path.isdir('../data/candles'):
                             os.makedirs('../data/candles')
-                        if not os.path.exists(f'../data/candles/{figi}.json'):
-                            with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
-                                json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
+                        
+                        with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
+                            json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
                     except KeyError:
                         return False
 
@@ -104,7 +104,7 @@ class TinkoffData():
                         return False
                     
             else:
-                return "Такого figi нет"
+                return False
         except ValueError:
             return False
    
