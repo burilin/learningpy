@@ -1,57 +1,19 @@
-import json
-import requests
-import datetime
-# url_post = "https://sandbox-invest-public-api.tinkoff.ru/rest/tinkoff.public.invest.api.contract.v1.MarketDataService/GetCandles"
-
-# token = "t.ZDlrOhEC9ykat6XRj1laFX4NLWoI6WgOYp-thfy7ceafgAt16S4hqMqQisDNp1sUceg1-2diDXa2J5dox9i_3Q"
-# headers = {"Authorization": "Bearer {}".format(token),
-#                    "accept": "application/json",
-#                    "Content-Type": "application/json"}
-# data_json = {
-#   "figi": "BBG004730N88",
-#   "from": "2021-09-19T14:41:49.263000Z",
-#   "to": "2022-09-19T14:41:49.263000Z",
-#   "interval": "CANDLE_INTERVAL_DAY"
+import instruments
+import stocks
+import stock
+import tinkoff_data
+import signals
+from flask import Flask, render_template, url_for, request, redirect, g
 
 
 
+instrument = instruments.Instruments()
+Stocks = stocks.Stocks()
+Stock = stock.Stock()
+tinkoff = tinkoff_data.TinkoffData()
+signal = signals.Signals()
+s = {'figi': 'TCS007661625', 'ticker': 'GAZP', 'classCode': 'SMAL', 'isin': 'RU0007661625', 'lot': 1, 'currency': 'rub', 'shortEnabledFlag': False, 'name': 'Газпром', 'exchange': 'MOEX_PLUS', 'ipoDate': '1998-12-30T00:00:00Z', 'issueSize': '23673512900', 'countryOfRisk': 'RU', 'countryOfRiskName': 'Российская Федерация', 'sector': 'energy', 'issueSizePlan': '23673512900', 'nominal': {'currency': 'rub', 'units': '5', 'nano': 0}, 'tradingStatus': 'SECURITY_TRADING_STATUS_NORMAL_TRADING', 'otcFlag': False, 'buyAvailableFlag': True, 'sellAvailableFlag': True, 'divYieldFlag': True, 'shareType': 'SHARE_TYPE_COMMON', 'minPriceIncrement': {'units': '0', 'nano': 10000000}, 'apiTradeAvailableFlag': False, 'uid': '9100df58-0e92-48ec-b962-4e788e6b61fd', 'realExchange': 'REAL_EXCHANGE_MOEX', 'positionUid': '4f9d0c81-cdf9-4735-8295-bacbfa3b8a51', 'forIisFlag': True, 'forQualInvestorFlag': False, 'weekendFlag': True, 'blockedTcaFlag': False, 'liquidityFlag': True, 'first1minCandleDate': '2018-03-08T04:23:00Z', 'first1dayCandleDate': '2018-03-13T07:00:00Z'}
 
-
-
-# tasks = {
-    
-#     1: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
-#     2: {"name_task_rus" : "Получение точек по закрытию (дата;цена)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":["figi"]},
-#     3: {"name_task_rus" : "Отправляет сигнал о покупке/продаже той или иной акции" ,"sys_name_function" : signal.signal, "funcs_params":["figi"]}
-# }
-
-# @app.route("/", methods = ["POST", "GET"])
-# def start():
-    
-#     ol_tasks = [str(i) +' ------- ' + tasks[i]['name_task_rus'] for i in range(1,len(tasks)+1)]  
-#     return render_template("index.html", ol_tasks=ol_tasks)  
-
-
-# @app.route("/get_args", methods = ["POST", "GET"])
-# def get_args():
-#     task = int(request.form["number"])
-#     params = [i for i in tasks[task]["funcs_params"] if i]
-#     return render_template("get_args.html", params=params)
-
-# @app.route("/graf")
-# def graf_stock():
-#     res = Stock.get_points_closing_graphic('TCS109029540')
-#     return f'<h1> {res[0]} </h1>'
-
-# @app.route("/result/<list>", methods = ["POST", "GET"])    #здесь затык
-# def result(list):
-#     print(list)
-#     return render_template('result.html')
-
-# res = str(['search_key', 'search_value', 'figi']+[1])
-# for i in ["'" ,"[" ,"]" ," "]:
-#     res = res.replace(i,"")
-# res = res.split(",")
-# print(res)
-
-print(f"{datetime.datetime.now() - datetime.timedelta(days=2)}"[:10])
+for i in s.items():
+    print(i[0],end=" ")
+    print(i[1])

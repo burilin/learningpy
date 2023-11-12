@@ -84,9 +84,10 @@ class TinkoffData():
                             os.makedirs('../data/candles')
                         
                         with open(f'../data/candles/{figi}.json', "w", encoding='utf-8') as file:
-                            json.dump(self.get_data_json(self.create_data_json_private(figi, date_from, date_to)),file,indent=4)
+                            json.dump({"candles":self.get_data_json(self.create_data_json_private(figi, date_from, date_to))},file,indent=4)
                     except KeyError:
                         return False
+                        
 
                     
                     return True
@@ -116,4 +117,4 @@ if __name__ == "__main__":
     tin = TinkoffData()
     tin_func = tin.loader
     #print(tin.separate_date_private("BBG004730N88","2020-06-19","2022-09-19"))
-    print(tin.loader("BBG000QJW156"))
+    print(tin.loader("BBG000QJW156", date_from="2023-09-05"))
