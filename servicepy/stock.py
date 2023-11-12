@@ -1,4 +1,6 @@
 import json
+import os
+import datetime
 from tinkoff_data import TinkoffData
 class Stock(TinkoffData):
 
@@ -9,17 +11,28 @@ class Stock(TinkoffData):
         return "class Stock"
     
     def reader(self, figi:str) -> list:   # opening file
-       
-        with open(f"../data/candles/{figi}.json","r",encoding="utf-8") as file:
-            stock = json.load(file)
-        return stock["candles"]
+        if os.path.exists(f"../data/candles/{figi}.json"):
+            with open(f"../data/candles/{figi}.json","r",encoding="utf-8") as file:
+                stock = json.load(file)
+            return stock["candles"]
+        else:
+            load = self.loader(figi,date_from=f"{datetime.datetime.now()- datetime.timedelta(days=14)}"[:10])
+            if load:
+                self.reader(figi)
+            return False
         
     def count_price_close(self,iteration:int, figi:str) -> float:
-        stock = self.reader(figi)
+        if self.reader(figi):
+            stock = self.reader(figi)
+        else:
+            return False
         return float(stock[iteration]["close"]['units']) + float(stock[iteration]["close"]['nano'])/1_000_000_000
         
     def get_points_closing_graphic(self, figi:str) -> list:
-        stock = self.reader(figi)
+        if self.reader(figi):
+            stock = self.reader(figi)
+        else:
+            return "error"
         return sorted([(stock[i]["time"],self.count_price_close(i, figi)) for i in range(len(stock)-1)])
     
 

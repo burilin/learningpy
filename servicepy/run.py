@@ -43,8 +43,8 @@ app = Flask(__name__)
 tasks = {
     
     1: {"name_task_rus" : "Поиск акций по значению указанного ключа(полное вхождение)" ,"sys_name_function" : instrument.select_stocks2,"funcs_params":["search_key", "search_value"]},
-    2: {"name_task_rus" : "Получение точек по закрытию (дата;цена)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":["figi"]},
-    3: {"name_task_rus" : "Отправляет сигнал о покупке/продаже той или иной акции" ,"sys_name_function" : signal.signal, "funcs_params":["figi"]}
+    2: {"name_task_rus" : "Получение точек по закрытию (дата;цена)" ,"sys_name_function" : Stock.get_points_closing_graphic, "funcs_params":[ "figi"]},
+    3: {"name_task_rus" : "Отправляет сигнал о покупке/продаже той или иной акции" ,"sys_name_function" : signal.signal, "funcs_params":["start_date", "end_date","figi"]}
 }
 
 @app.route("/", methods = ["POST", "GET"])
@@ -59,19 +59,22 @@ def get_args():
     params = [i for i in tasks[task]["funcs_params"] if i]
     return render_template("get_args.html", params=params, task = task)
 
-@app.route("/graf")
-def graf_stock():
-    res = Stock.get_points_closing_graphic('TCS109029540')
-    return f'<h1> {res[0]} </h1>'
 
-@app.route("/result/<list>/<task>", methods = ["POST", "GET"])    #здесь затык
+
+@app.route("/result/<list>/<task>", methods = ["POST", "GET"])
 def result(list, task):
     for i in ["'" ,"[" ,"]" ," "]:
         list = list.replace(i,"")
     list = list.split(",")
+    print(list, task)
     par_list = [request.form[list[i]] for i in range(len(list))]
+    #par_list = [request.form["figi"]]
+    #par_list = [request.form.get("figi")]
+    if task == 3:
+        for i in range(2):
+            par_list[i][5:7], par_list[i][-1:-3] = par_list[i][-1:-3], par_list[i][5:7]
     res = tasks[int(task)]["sys_name_function"](*par_list)
-    return render_template('result.html', res = res)
+    return render_template('result.html', res = res, task=task)
 
 
 if __name__ == '__main__':

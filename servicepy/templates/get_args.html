@@ -5,17 +5,29 @@
 <div class='form_wrapper'>
     <div class='form_container'>
         <div class='title_container'>
-            <h2>Поиск по ключу </h2>
+            <h2>Полученние данных </h2>
         </div>
 
     <div>
 <form action="{{url_for('result', list = params, task = task)}}" method="POST">
     {% if params %}
         {% for param in params%}
+        {%if param == "search_key"%}
+        <div class='input_field'> <span><i class='fa fa-envelope'></i></span>
+            <span>{{param}}:</span><br>
+            <input type='text' name="{{param}}" placeholder="Введите параметр поиска" required, value = "name">
+        </div>
+        {%elif param == "start_date" or param == "end_date"%}
+        <div class='input_field'> <span><i class='fa fa-envelope'></i></span>
+            <span>{{param}}:</span><br>
+            <input type='date' name="{{param}}" placeholder="Ввыбери дату" required>
+        </div>
+        {%else%}
         <div class='input_field'> <span><i class='fa fa-envelope'></i></span>
             <span>{{param}}:</span><br>
             <input type='text' name="{{param}}" placeholder="Введите параметр поиска" required>
         </div>
+        {%endif%}
         {%endfor%}
 
     {%else%}

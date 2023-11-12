@@ -26,8 +26,9 @@ class Validator:
     
         for i in range(len(stocks)-1):
             if stocks[i]['figi'] == figi and  stocks[i]["first1dayCandleDate"]<date_from:
+                print(True)
                 return True
-            
+        print(False)
         return False
 if __name__ == "__main__":
     val = Validator()
