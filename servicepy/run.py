@@ -3,6 +3,8 @@ import stocks
 import stock
 import tinkoff_data
 import signals
+from bokeh.embed import components
+from bokeh.plotting import figure
 from flask import Flask, render_template, url_for, request, redirect, g
 
 
@@ -66,15 +68,35 @@ def result(list, task):
     for i in ["'" ,"[" ,"]" ," "]:
         list = list.replace(i,"")
     list = list.split(",")
-    print(list, task)
+    #print(list, task)
     par_list = [request.form[list[i]] for i in range(len(list))]
+    print(request.form)
     #par_list = [request.form["figi"]]
     #par_list = [request.form.get("figi")]
     if task == 3:
         for i in range(2):
             par_list[i][5:7], par_list[i][-1:-3] = par_list[i][-1:-3], par_list[i][5:7]
+    global res
     res = tasks[int(task)]["sys_name_function"](*par_list)
     return render_template('result.html', res = res, task=task)
+
+
+ 
+# Root endpoint 
+@app.route('/graphic')
+def graphic():
+    # Define Plot Data 
+    labels = [i[0][:10] for i in res]
+    
+ 
+    data = [i[1] for i in res]
+ 
+    # Return the components to the HTML template 
+    return render_template(
+        template_name_or_list='graphic.html',
+        data=data,
+        labels=labels,
+    )
 
 
 if __name__ == '__main__':

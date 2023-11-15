@@ -5,7 +5,7 @@ from tinkoff_data import TinkoffData
 class Stock(TinkoffData):
 
     def __init__(self): 
-        pass
+        TinkoffData.__init__(self)
 
     def __repr__(self) -> str:
         return "class Stock"
@@ -16,7 +16,7 @@ class Stock(TinkoffData):
                 stock = json.load(file)
             return stock["candles"]
         else:
-            load = self.loader(figi,date_from=f"{datetime.datetime.now()- datetime.timedelta(days=14)}"[:10])
+            load = self.loader(figi,date_from=f"{datetime.datetime.now()- datetime.timedelta(days=100)}"[:10])
             if load:
                 self.reader(figi)
             return False
@@ -32,14 +32,15 @@ class Stock(TinkoffData):
         if self.reader(figi):
             stock = self.reader(figi)
         else:
-            return "error"
-        return sorted([(stock[i]["time"],self.count_price_close(i, figi)) for i in range(len(stock)-1)])
+            return False
+        
+        return sorted([(stock[i]["time"],self.count_price_close(i, figi)) for i in range(len(stock))])
     
 
 if __name__ == "__main__":
     ob = Stock()
-    print(ob.reader("TCS007661625"))
-    print(ob.get_points_closing_graphic("TCS109805522"))
+    #print(ob.reader("TCS007661625"))
+    print(ob.get_points_closing_graphic("TCS007661625"))
         
 
 
