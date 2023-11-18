@@ -12,17 +12,9 @@
         {%endfor%}
     </tbody>
 </table>
-
-<form action="{{url_for('result', list = ['figi'], task = 2)}}">
-    <div>
-        <input type='text' name='figi' required hidden value = "{{res['figi']}}" >
-    </div>
-    <button type="submit">Получить котировки</button>
-</form>
-
 {% elif task == '2' %}
 
-<form action="{{url_for('graphic')}}">
+<form action="{{url_for('graphic',res=res)}}">
     <button type="submit">Построить график</button>
 </form>
 <p>{{res}}</p>
