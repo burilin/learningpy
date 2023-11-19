@@ -92,6 +92,11 @@ def graphic(res):
         labels=labels
     )
 
+@app.route('/rate/<task>/<figi>')
+def rate(task,figi):
+    res = tasks[int(task)]["sys_name_function"](figi)
+    return render_template('rate.html',res=res)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
