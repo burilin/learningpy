@@ -3,13 +3,14 @@ import stocks
 import stock
 import tinkoff_data
 import signals
-import json
+import db
+import uuid
 import ast
 from flask import Flask, render_template, url_for, request, redirect, g
 
 
 
-
+db = db.DateBase()
 instrument = instruments.Instruments()
 Stocks = stocks.Stocks()
 Stock = stock.Stock()
@@ -68,7 +69,7 @@ def get_args():
 def result(list, task):
     list = ast.literal_eval(list)
     par_list = [request.form[list[i]] for i in range(len(list))]
-    if task == 3:
+    if task == '3':
         for i in range(2):
             par_list[i][5:7], par_list[i][-1:-3] = par_list[i][-1:-3], par_list[i][5:7]
     res = tasks[int(task)]["sys_name_function"](*par_list)
@@ -92,9 +93,17 @@ def graphic(res):
         labels=labels
     )
 
-@app.route('/rate/<task>/<figi>')
-def rate(task,figi):
+@app.route('/rate/<task>/<figi>/<name>')
+def rate(task,figi,name):
     res = tasks[int(task)]["sys_name_function"](figi)
+
+    db.create_table("stocks","uuid uuid PRIMARY KEY NOT NULL, figi TEXT, name TEXT")
+    db.create_table("quots", "uuid uuid PRIMARY KEY NOT NULL , time TEXT, price DECIMAL, uuid_stocks uuid REFERENCES stocks(uuid) ON DELETE CASCADE")
+    db.inner_join()
+    uid = uuid.uuid4()
+    db.inset_data("stocks",(uid, figi, name))
+    for i in range(len(result)):
+        db.inset_data("quots",(uuid.uuid4(),res[i][0], res[i][1], 'SELECT uuid FROM stocks WHERE stocks.figi = quots.figi'))  
     return render_template('rate.html',res=res)
 
 

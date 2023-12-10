@@ -1,6 +1,9 @@
 {%extends "base.html"%}
 {% block body%}
 {% if task == '1' %}
+{% if res == "not found" %}
+    <p>{{res}}</p>
+{%else%}
 <table >
     <thead>Информация о акции</thead>
     <tbody>
@@ -13,10 +16,10 @@
     </tbody>
 </table>
 
-<form action="{{url_for('rate',task='2', figi=res['figi'])}}">
+<form action="{{url_for('rate',task='2', figi=res['figi'], name=res['name'])}}">
     <button type="submit">получить котировки</button>
 </form>
-
+{%endif%}
 {% elif task == '2' %}
 
 <form action="{{url_for('graphic',res=res)}}">
