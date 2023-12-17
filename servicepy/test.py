@@ -4,7 +4,7 @@ import stock
 import tinkoff_data
 import signals
 from flask import Flask, render_template, url_for, request, redirect, g
-
+import sqlite3 as sq
 
 
 # instrument = instruments.Instruments()
@@ -20,12 +20,19 @@ from flask import Flask, render_template, url_for, request, redirect, g
 # list = ast.literal_eval(list)
 # print(list[1])
 
+import uuid
+dp_path = "db/quots.db"
 
-def f(x, y):
-    if x > y:
-        return 0
-    if x == y:
-        return 1
-    else:
-        return f(x + 2, y) + f(x * 3, y) + f(x + 3, y)
-print(*[1,2,3])
+db = sq.connect(dp_path)
+cur = db.cursor()
+
+cur.execute("DROP TABLE IF EXISTS quots;")
+cur.execute ('DROP TABLE IF EXISTS stocks;')
+cur.execute ('CREATE TABLE stocks (uuid uuid PRIMARY KEY NOT NULL, figi TEXT, name TEXT);')
+cur.execute ('CREATE TABLE quots (uuid uuid PRIMARY KEY NOT NULL , time TEXT, price DECIMAL, uuid_stocks uuid REFERENCES  stocks(uuid) ON DELETE CASCADE);')
+cur.execute ('SELECT * FROM quots q INNER JOIN stocks s ON q.uuid_stocks = s.uuid;')
+
+cur.execute('INSERT INTO stocks (uuid, figi, name) VALUES("9ea8f9d5-bda9-4dc1-aacc-4a03f6cb17f0","TCS032", "Роснефть" );')
+cur.execute('INSERT INTO stocks (uuid, figi, name) VALUES("ca9262e2-0429-4561-9b80-7d3734ba5822","BBG00321", "Газпром" );')
+db.commit()
+db.close()
