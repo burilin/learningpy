@@ -1,5 +1,4 @@
 import sqlite3 as sq
-import uuid
 
 class DateBase:
     def __init__(self, dp_path = "db/quots.db") -> None:
@@ -19,11 +18,11 @@ class DateBase:
         self.db.execute(sql_query) 
         
     
-    def inner_join(self): # как связать таблицы, в какой функции это делать?
+    def inner_join(self):
         sql_join = "SELECT * FROM quots q INNER JOIN stocks s ON q.uuid_stocks = s.uuid"
         self.db.execute(sql_join)
 
-    def inset_data(self, table_name:str, *insert_values): #затык
+    def inset_data(self, table_name:str, *insert_values):
         val = str(insert_values)
         val = val.replace('(',"")
         val = val.replace(')',"")
@@ -37,6 +36,16 @@ class DateBase:
             sql_insert = 'INSERT INTO {} (uuid, time, price, uuid_stocks) VALUES({})'.format(table_name,val)
         sql_insert = sql_insert.replace("'",'"')
         self.db.execute(sql_insert)
+    
+
+    def check_name(self,name_stock):
+        sql_select = f"SELECT name FROM stocks"
+        answer = self.db.execute(sql_select)
+        if str(answer.fetchall()[0][0]) == name_stock:
+            sql_select_data = "SELECT time, price FROM quots"
+            return self.db.execute(sql_select_data)
+        return False
+    
     
     def db_close(self):
         self.db.commit()

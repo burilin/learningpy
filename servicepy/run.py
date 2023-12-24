@@ -6,7 +6,7 @@ import signals
 import db
 import uuid
 import ast
-from flask import Flask, render_template, url_for, request, redirect, g
+from flask import Flask, render_template,request
 
 
 
@@ -95,23 +95,28 @@ def graphic(res):
 
 @app.route('/rate/<task>/<figi>/<name>')
 def rate(task,figi,name):
-    res = tasks[int(task)]["sys_name_function"](figi)
     database = db.DateBase()
-    database.create_table("stocks","uuid uuid PRIMARY KEY NOT NULL, figi TEXT, name TEXT")
-    database.create_table("quots", "uuid uuid PRIMARY KEY NOT NULL , time TEXT, price DECIMAL, uuid_stocks uuid REFERENCES stocks(uuid) ON DELETE CASCADE")
-    database.inner_join()
-    uid = str(uuid.uuid4())
-    database.inset_data('stocks',uid, figi, name)
-    for i in range(len(res)):
-        uid2 = str(uuid.uuid4())
-        database.inset_data('quots',(uid2,res[i][0], res[i][1], 'SELECT uuid FROM stocks WHERE stocks.figi = quots.figi'))  
-    database.db_close()
+    if not database.check_name(name):
+
+        res = tasks[int(task)]["sys_name_function"](figi)
+    
+        database.create_table("stocks","uuid uuid PRIMARY KEY NOT NULL, figi TEXT, name TEXT")
+        database.create_table("quots", "uuid uuid PRIMARY KEY NOT NULL , time TEXT, price DECIMAL, uuid_stocks uuid REFERENCES stocks(uuid) ON DELETE CASCADE")
+        database.inner_join()
+        uid = str(uuid.uuid4())
+        database.inset_data('stocks',uid, figi, name)
+        for i in range(len(res)):
+            uid2 = str(uuid.uuid4())
+            database.inset_data('quots',(uid2,res[i][0], res[i][1], uid))  
+        database.db_close()
+    else:
+        res = database.check_name(name).fetchall()
     return render_template('rate.html',res=res)
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-    # result = main()
-    # print(result)
+    #result = main()
+    #print(result)
     
 
